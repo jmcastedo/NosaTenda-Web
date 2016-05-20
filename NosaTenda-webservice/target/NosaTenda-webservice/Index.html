@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="webjars/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="webjars/jquery/2.1.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="webjars/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	<title>Nosa Tenda</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="Index.html">Nosa Tenda</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="SeeProductos">Ver productos</a></li>
+            <li><a href="AddProducto">Añadir producto</a></li>
+            <li><a href="SearchProducto.jsp">Buscar producto</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reservas<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="SeeReservas">Ver reservas</a></li>
+            <li><a href="#">Entregar reserva</a></li>
+            <li><a href="#">Cancelar reserva</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Compras<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="SeeCompras">Ver compras</a></li>
+            <li><a href="SearchCompra">Buscar compras</a></li>
+            <li><a href="#">Facturas</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Crear cuenta</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+	<h1 class="text-left text-primary">Nosa Tenda</h1>
+</div>
+
+<!-- 
+<div align="center">
+	<form method="GET" action="SeeProductos">
+		<input type="submit" value="Ver Productos">
+	</form>
+	<form method="GET" action="AddProducto">
+		<input type="submit" value="Crear Producto">
+	</form>
+		<form method="GET" action="SearchProducto.jsp">
+		<input type="submit" value="Buscar Producto">
+	</form>
+	<form method="GET" action="SeeReservas">
+		<input type="submit" value="Ver Reservas">
+	</form>
+	<form method="GET" action="SeeCompras">
+		<input type="submit" value="Ver Compras">
+	</form>
+	<form method="GET" action="SearchCompra">
+		<input type="submit" value="Buscar Compras por Tienda">
+	</form>
+ -->
+<div class="container">
+	<form method="GET" action="BootStrapExample.jsp">
+		<input type="submit" value="BootStrapExample">
+	</form>
+	
+	<form method="GET" action="BootStrapTutorial.jsp">
+		<input type="submit" value="BootStrapTutorial">
+	</form>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+	<debug />
+
+	<global-method-security pre-post-annotations="enabled"/>
+	
+	<http auto-config="true" use-expressions="true" authentication-manager-ref="apiAccess" pattern="/rest/**" create-session="never">
+		<!-- REST service -->
+		<intercept-url pattern="/rest/service/ReserveJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/GetReservasByIdJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/CancelarReservaByIdJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/ConfirmPaymentJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/GetClienteJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/GetComprasByIdJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/FavTiendaJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/UnfavTiendaJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/IsFavTiendaJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/GetTiendasFavoritasJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/service/GetProductosByTiendasFavoritasJSONServlet" access="hasRole('ROLE_CLIENTE')" />
+		<intercept-url pattern="/rest/**" access="permitAll" />
+		
+		<csrf disabled="true"/>
+	</http>
+
+	<http auto-config="true" use-expressions="true" authentication-manager-ref="webAccess">
+		<intercept-url pattern="/secure/extreme/**" access="hasRole('ROLE_ADMIN')"/>
+		<intercept-url pattern="/secure/**" access="hasAnyRole('ROLE_ADMIN_TIENDA,ROLE_ADMIN')" />
+		
+		<intercept-url pattern="/SeeEmpleados**" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/EditarRole**" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/BorrarEmpleado**" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/ActivarEmpleado**" access="hasRole('ROLE_ADMIN')" />
+		
+		<intercept-url pattern="/Index.jsp" access="hasAnyRole('ROLE_USUARIO,ROLE_ADMIN_TIENDA,ROLE_ADMIN')" />
+		
+		<intercept-url pattern="/Login.jsp" access="permitAll" />
+		<intercept-url pattern="/LogoutExito.jsp" access="permitAll" />
+		<intercept-url pattern="/LoginError.jsp" access="permitAll" />
+		<intercept-url pattern="/EditarCorreoExito.jsp" access="permitAll" />
+		<intercept-url pattern="/CrearCuenta**" access="permitAll" />
+<!-- 	<intercept-url pattern="/Index**" access="permitAll" />  -->
+		<intercept-url pattern="/HeadConfig**" access="permitAll" />
+		<intercept-url pattern="/NavBar**" access="permitAll" />
+		<intercept-url pattern="/NotFound**" access="permitAll" />
+		<intercept-url pattern="/webjars/**" access="permitAll" />
+
+ 		<intercept-url pattern="/**" access="hasAnyRole('ROLE_USUARIO,ROLE_ADMIN_TIENDA,ROLE_ADMIN')" />
+<!-- 		<intercept-url pattern="/**" access="permitAll" /> -->
+		
+		<form-login login-page="/Login.jsp" authentication-failure-url="/LoginError.jsp" />
+		<logout logout-success-url="/LogoutExito.jsp" delete-cookies="JSESSIONID" />
+		<remember-me user-service-ref="empleadoService" />
+		<access-denied-handler error-page="/AccessDenied.jsp" />
+	</http>
+
+	<beans:bean id="encoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+
+	<authentication-manager id="webAccess">
+		<authentication-provider>
+<!-- 			<password-encoder ref="encoder"/> -->
+			<jdbc-user-service
+				id="empleadoService"
+				data-source-ref="dataSource"
+				users-by-username-query="SELECT empleado_correo, empleado_password, empleado_activado FROM empleado where empleado_correo = ?"
+                authorities-by-username-query="SELECT empleado_correo, empleado_role FROM empleado where empleado_correo = ?"/>
+		</authentication-provider>
+		
+	</authentication-manager>
+	<authentication-manager id="apiAccess">
+		<authentication-provider>
+<!-- 			<password-encoder ref="encoder"/> -->
+			<jdbc-user-service
+				id="clienteService"
+				data-source-ref="dataSource"
+				users-by-username-query="SELECT cliente_correo, cliente_password, true FROM cliente where cliente_correo = ?"
+                authorities-by-username-query="SELECT cliente_correo, cliente_role FROM cliente where cliente_correo = ?"/>
+		</authentication-provider>
+	</authentication-manager>
+
+</beans:beans>

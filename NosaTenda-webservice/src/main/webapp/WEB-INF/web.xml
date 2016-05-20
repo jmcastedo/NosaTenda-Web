@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                        http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+                        
+  <display-name>NosaTenda Web Service</display-name>
+  
+  <context-param>
+    	<param-name>contextConfigLocation</param-name>
+    	<param-value>
+    		classpath:/nosaTenda-spring-config.xml
+    		/WEB-INF/nosaTenda-spring-security-config.xml
+    	</param-value>
+  </context-param>
+  
+  <!-- Filtro para spring security -->
+  <filter>
+	<filter-name>springSecurityFilterChain</filter-name>
+	<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+  
+  <!-- Filtro para el patrón openSessionInView -->
+  <!-- ***********************************************************************
+  <filter>
+   	<filter-name>openSessionInView</filter-name>
+   	<filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter</filter-class>
+   	<init-param>
+     		<param-name>sessionFactoryBeanName</param-name>
+     		<param-value>sessionFactory</param-value>
+   	</init-param>
+  </filter>
+  ******************************************************************* -->
+  
+  <filter-mapping>
+	<filter-name>springSecurityFilterChain</filter-name>
+	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <!-- ***********************************************************************
+  <filter-mapping>
+    <filter-name>openSessionInView</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  ******************************************************************* -->
+  
+  <!--
+    - Loads the root application context of this web app at startup.
+  -->
+  <listener>
+	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  
+  <!-- ============================== Servlets ============================= -->
+  
+  <servlet>
+  	<servlet-name>ServletExample</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.service.example.ServletExample</servlet-class>
+  </servlet>
+  
+  <!-- Rest -->
+  
+  <servlet>
+  	<servlet-name>ServletDePrueba</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.ServletDePrueba</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetProductosServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetProductosServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetProductosJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetProductosJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetProductosEnVentaJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetProductosEnVentaJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>NewClienteJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.NewClienteJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ReserveJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.ReserveJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>LoginJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.LoginJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetReservasByIdJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetReservasByIdJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>CancelarReservaByIdJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.CancelarReservaByIdJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>TestConfirmPaymentServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.TestConfirmPaymentServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ConfirmPaymentJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.ConfirmPaymentJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetClienteJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetClienteJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>HayStockJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.HayStockJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetStockJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetStockJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetComprasByIdJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetComprasByIdJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetLocalidadesJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetLocalidadesJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetProductosByLocalidadJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetProductosByLocalidadJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetCategoriasJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetCategoriasJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetProductosByCategoriaJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetProductosByCategoriaJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetProductosByCategoriaTiendaJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetProductosByCategoriaTiendaJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetTiendasCercanasJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetTiendasCercanasJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>FavTiendaJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.FavTiendaJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>UnfavTiendaJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.UnfavTiendaJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>IsFavTiendaJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.IsFavTiendaJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetTiendasFavoritasJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetTiendasFavoritasJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetProductosByTiendaJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetProductosByTiendaJSONServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GetProductosByTiendasFavoritasJSONServlet</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.rest.servlets.GetProductosByTiendasFavoritasJSONServlet</servlet-class>
+  </servlet>
+  
+  <!-- Web -->
+  
+  <servlet>
+  	<servlet-name>Console</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.ConsoleServlet</servlet-class>
+  </servlet>
+  
+  	<!-- Deprecated -->
+  <servlet>
+  	<servlet-name>SeeProductos</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SeeProductosServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SeeAllProductos</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SeeAllProductosServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SeeProductosForSale</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SeeProductosForSaleServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DetallesProducto</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.DetallesProductoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>PonerEnVenta</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.PonerEnVentaServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SeeReservas</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SeeReservasServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>CancelarReserva</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.CancelarReservaServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>EntregarReserva</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.EntregarReservaServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddProducto</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.AddProductoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>BorrarProducto</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.BorrarProductoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SearchProducto</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SearchProductoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>EditarProducto</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.EditarProductoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ModificarPrecio</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.ModificarPrecioServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SeeCompras</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SeeComprasServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SearchCompra</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SearchCompraServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SearchCompraResultados</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SearchCompraResultadosServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>GenerateFactura</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.GenerateFacturaServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SeeCuenta</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SeeCuentaServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SeeCuentaEdit</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SeeCuentaEditServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>CrearCuenta</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.CrearCuentaServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>EditarPassword</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.EditarPasswordServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>EditarCorreo</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.EditarCorreoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SeeEmpleados</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.SeeEmpleadosServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ActivarEmpleado</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.ActivarEmpleadoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>BorrarEmpleado</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.BorrarEmpleadoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>EditarRole</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.EditarRoleServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DetallesTienda</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.DetallesTiendaServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>EditarTienda</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.EditarTiendaServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddTienda</servlet-name>
+  	<servlet-class>es.udc.jcastedo.NosaTenda.webservice.service.web.servlets.AddTiendaServlet</servlet-class>
+  </servlet>
+  
+  <!-- ====================== Servlet mapping ============================== -->
+  
+  <servlet-mapping>
+  	<servlet-name>ServletExample</servlet-name>
+  	<url-pattern>/example</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Rest -->
+  
+  <servlet-mapping>
+  	<servlet-name>ServletDePrueba</servlet-name>
+  	<url-pattern>/pruebas</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetProductosServlet</servlet-name>
+  	<url-pattern>/rest/service/GetProductosServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetProductosJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetProductosJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetProductosEnVentaJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetProductosEnVentaJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>NewClienteJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/NewClienteJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ReserveJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/ReserveJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/LoginJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetReservasByIdJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetReservasByIdJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>CancelarReservaByIdJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/CancelarReservaByIdJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>TestConfirmPaymentServlet</servlet-name>
+  	<url-pattern>/rest/service/TestConfirmPaymentServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ConfirmPaymentJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/ConfirmPaymentJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetClienteJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetClienteJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>HayStockJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/HayStockJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetStockJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetStockJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetComprasByIdJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetComprasByIdJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetLocalidadesJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetLocalidadesJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetProductosByLocalidadJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetProductosByLocalidadJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetCategoriasJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetCategoriasJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetProductosByCategoriaJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetProductosByCategoriaJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetProductosByCategoriaTiendaJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetProductosByCategoriaTiendaJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetTiendasCercanasJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetTiendasCercanasJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>FavTiendaJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/FavTiendaJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>UnfavTiendaJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/UnfavTiendaJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>IsFavTiendaJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/IsFavTiendaJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetTiendasFavoritasJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetTiendasFavoritasJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetProductosByTiendaJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetProductosByTiendaJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GetProductosByTiendasFavoritasJSONServlet</servlet-name>
+  	<url-pattern>/rest/service/GetProductosByTiendasFavoritasJSONServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Web -->
+  
+  <servlet-mapping>
+  	<servlet-name>Console</servlet-name>
+  	<url-pattern>/Console</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Deprecated -->
+  <servlet-mapping>
+  	<servlet-name>SeeProductos</servlet-name>
+  	<url-pattern>/SeeProductos</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SeeAllProductos</servlet-name>
+  	<url-pattern>/SeeAllProductos</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SeeProductosForSale</servlet-name>
+  	<url-pattern>/SeeProductosForSale</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DetallesProducto</servlet-name>
+  	<url-pattern>/DetallesProducto</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>PonerEnVenta</servlet-name>
+  	<url-pattern>/PonerEnVenta</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SeeReservas</servlet-name>
+  	<url-pattern>/SeeReservas</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>CancelarReserva</servlet-name>
+  	<url-pattern>/CancelarReserva</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>EntregarReserva</servlet-name>
+  	<url-pattern>/EntregarReserva</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>AddProducto</servlet-name>
+  	<url-pattern>/AddProducto</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>BorrarProducto</servlet-name>
+  	<url-pattern>/BorrarProducto</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SearchProducto</servlet-name>
+  	<url-pattern>/SearchProducto</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>EditarProducto</servlet-name>
+  	<url-pattern>/EditarProducto</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ModificarPrecio</servlet-name>
+  	<url-pattern>/ModificarPrecio</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SeeCompras</servlet-name>
+  	<url-pattern>/SeeCompras</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SearchCompra</servlet-name>
+  	<url-pattern>/SearchCompra</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SearchCompraResultados</servlet-name>
+  	<url-pattern>/SearchCompraResultados</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>GenerateFactura</servlet-name>
+  	<url-pattern>/GenerateFactura</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SeeCuenta</servlet-name>
+  	<url-pattern>/SeeCuenta</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SeeCuentaEdit</servlet-name>
+  	<url-pattern>/SeeCuentaEdit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>CrearCuenta</servlet-name>
+  	<url-pattern>/CrearCuenta</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>EditarPassword</servlet-name>
+  	<url-pattern>/EditarPassword</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>EditarCorreo</servlet-name>
+  	<url-pattern>/EditarCorreo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SeeEmpleados</servlet-name>
+  	<url-pattern>/SeeEmpleados</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ActivarEmpleado</servlet-name>
+  	<url-pattern>/ActivarEmpleado</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>BorrarEmpleado</servlet-name>
+  	<url-pattern>/BorrarEmpleado</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>EditarRole</servlet-name>
+  	<url-pattern>/EditarRole</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DetallesTienda</servlet-name>
+  	<url-pattern>/DetallesTienda</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>EditarTienda</servlet-name>
+  	<url-pattern>/EditarTienda</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>AddTienda</servlet-name>
+  	<url-pattern>/AddTienda</url-pattern>
+  </servlet-mapping>
+  
+  <!-- =========================== Welcome page ============================ -->
+  
+  <welcome-file-list>
+  	<welcome-file>Index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Paxina de erro non encontrado -->
+  <error-page>
+   	<error-code>404</error-code>
+   	<location>/NotFound.jsp</location>
+  </error-page>
+  
+  <!-- Exceptions -->
+  <error-page>
+  	<exception-type>java.lang.Throwable</exception-type>
+  	<location>/ExceptionReport.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<error-code>500</error-code>
+    <location>/ExceptionReport.jsp</location>
+  </error-page>
+    
+</web-app>

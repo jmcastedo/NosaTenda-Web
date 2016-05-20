@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+        <File name="ERROR_FILE" fileName="log/nosaTenda-webservice2-error.log">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
+        </File>
+        <File name="EVENT_FILE" fileName="log/nosaTenda-webservice2-event.log">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="mikros.utils.MikrosLoggerTest" level="trace"
+            additivity="false">
+            <AppenderRef ref="Console" />
+        </Logger>       
+        <Logger name="mikros.adsss.logger.AdsssLogger" level="debug"
+            additivity="false">
+            <AppenderRef ref="ERROR_FILE" level="ERROR"/>
+            <AppenderRef ref="EVENT_FILE" level="INFO"/>
+        </Logger>       
+        <Root level="trace">
+            <AppenderRef ref="Console" />
+        </Root>
+    </Loggers>
+</Configuration>

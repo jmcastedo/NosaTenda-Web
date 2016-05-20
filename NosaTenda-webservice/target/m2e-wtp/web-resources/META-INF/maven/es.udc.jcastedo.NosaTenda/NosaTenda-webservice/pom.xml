@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>es.udc.jcastedo.NosaTenda</groupId>
+    <artifactId>NosaTenda</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
+  </parent>
+  <artifactId>NosaTenda-webservice</artifactId>
+  <packaging>war</packaging>
+  
+  <name>NosaTenda Web Services</name>
+  <url>http://maven.apache.org</url>
+  
+  <dependencies>
+  
+  	<!--  JDBC driver  -->
+	<dependency>
+		<groupId>${jdbcDriver.groupId}</groupId>
+		<artifactId>${jdbcDriver.artifactId}</artifactId>
+		<version>${jdbcDriver.version}</version>
+	</dependency>
+  
+  	<!-- JUnit -->
+    <dependency>
+      	<groupId>junit</groupId>
+      	<artifactId>junit</artifactId>
+      	<version>4.11</version>
+      	<scope>test</scope>
+    </dependency>
+    
+    <!-- Other Project Modules -->
+    <dependency>
+    	<groupId>${project.groupId}</groupId>
+    	<artifactId>NosaTenda-model</artifactId>
+    	<version>${project.version}</version>
+    </dependency>
+    
+    <!-- Servlets -->
+    <dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>3.0.1</version>
+		<scope>provided</scope>
+	</dependency>
+	
+	<!-- XML -->
+	<dependency>
+		<groupId>org.jdom</groupId>
+		<artifactId>jdom</artifactId>
+		<version>2.0.2</version>
+	</dependency>
+	
+	<!-- JSON -->
+	<!--  will probably replace XML completely, in that case erase previous dependency -->
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-core</artifactId>
+		<version>2.4.3</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.4.3</version>
+	</dependency>
+	
+	<!-- PayPal -->
+	
+	<dependency>
+		<groupId>com.paypal.sdk</groupId>
+		<artifactId>rest-api-sdk</artifactId>
+		<version>1.1.0</version>
+	</dependency>
+	
+	
+	<!-- Logging -->
+	
+	<!-- more info in: http://spring.io/blog/2009/12/04/logging-dependencies-in-spring/ -->
+	
+	<!-- to use SLF4J with Spring we need to replace the commons-logging dependency with the SLF4J-JCL bridge -->
+	<!-- logging calls from within Spring will be translated into logging calls to the SLF4J API -->
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>jcl-over-slf4j</artifactId>
+		<version>1.7.7</version>
+		<scope>runtime</scope>
+	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+		<version>1.7.7</version>
+		<scope>runtime</scope>
+	</dependency>
+	<!-- explicit binding from SLF4J to Log4J -->
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-log4j12</artifactId>
+		<version>1.7.7</version>
+		<scope>runtime</scope>
+	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+		<scope>runtime</scope>
+	</dependency>
+	
+	<!-- Bootstrap (web design) -->
+	<dependency>
+		<groupId>org.webjars</groupId>
+		<artifactId>bootstrap</artifactId>
+		<version>3.3.4</version>
+	</dependency>
+	
+	<!-- JQuery (Bootstrap requirement) -->
+	<dependency>
+		<groupId>org.webjars</groupId>
+		<artifactId>jquery</artifactId>
+		<version>2.1.3</version>
+	</dependency>
+	
+	<!-- Spring Security -->
+	<!-- authentication and access control functionality, support for standalone (non-web) applications, method level security and JDBC -->
+	<dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-core</artifactId>
+        <version>${spring.security.version}</version>
+    </dependency>
+    <!-- filters and related web security infrastructure enabling URL access control in a Servlet environment -->
+	<dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-web</artifactId>
+        <version>${spring.security.version}</version>
+        <exclusions>
+			<!-- Since we use SLF4J for logging, we replace commons-logging with the SLF4J-JCL bridge -->
+         	<exclusion>
+           		<groupId>org.springframework</groupId>
+           		<artifactId>spring-web</artifactId>
+         	</exclusion>
+      	</exclusions>
+    </dependency>
+    <!-- dependency of spring-security-web, we exclude it so it will use the same version as Spring in model -->
+    <dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-web</artifactId>
+		<version>${spring.version}</version>
+	</dependency>
+	<!-- Spring Security XML namespace -->
+	<dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-config</artifactId>
+        <version>${spring.security.version}</version>
+        <scope>runtime</scope>
+    </dependency>
+    <!-- Spring Security JSP taglib support -->
+    <dependency>
+	    <groupId>org.springframework.security</groupId>
+	    <artifactId>spring-security-taglibs</artifactId>
+	    <version>${spring.security.version}</version>
+	</dependency>
+	<!-- Dependency for jstl taglib -->
+	<!-- Ahora mismo no se usa para nada, si no surge algun uso borrar -->
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>jstl</artifactId>
+	    <version>1.2</version>
+	</dependency>
+	
+  </dependencies>
+  
+  
+  <build>
+    <finalName>NosaTenda-webservice</finalName>
+    	<plugins>
+    		<!-- Compiler configuration -->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <verbose>true</verbose>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <!-- ========================================================== -->
+            <!-- Jetty configuration -->
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>8.1.15.v20140411</version>
+                
+                <configuration>
+    				<webAppConfig>
+                      <contextPath>/${project.artifactId}</contextPath>
+                        <jettyEnvXml>target/jetty/jetty-env.xml</jettyEnvXml>
+                    </webAppConfig>
+    			</configuration>
+    			
+    			<!-- Specified driver to access to the data base -->
+      			<dependencies>
+    				<dependency>
+       					<groupId>${jdbcDriver.groupId}</groupId>
+     					<artifactId>${jdbcDriver.artifactId}</artifactId>
+       					<version>${jdbcDriver.version}</version>
+       				</dependency>
+       			</dependencies>
+            </plugin>
+        </plugins>
+  </build>
+</project>
