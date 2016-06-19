@@ -310,12 +310,12 @@
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="lat">Latitud:</label>
 				<div class="col-sm-3 <% if (!latErrorMessage.equals("")) { %>has-error has-feedback<% } %>">
-			        <input type="number" class="form-control" id="lat" name="lat" placeholder="Introduzca una latitud" value="<%= lat %>">
+			        <input type="number" class="form-control" id="lat" name="lat" placeholder="Introduzca una latitud" value="<%= lat %>" step="0.000001">
 			        <% if (!latErrorMessage.equals("")) { %><span class="glyphicon glyphicon-remove form-control-feedback"></span><% } %>
 			    </div>
 			    <label class="control-label col-sm-2" for="lon">Longitud:</label>
 				<div class="col-sm-3 <% if (!lonErrorMessage.equals("")) { %>has-error has-feedback<% } %>">
-			        <input type="number" class="form-control" id="lon" name="lon" placeholder="Introduzca una longitud" value="<%= lon %>">
+			        <input type="number" class="form-control" id="lon" name="lon" placeholder="Introduzca una longitud" value="<%= lon %>" step="0.000001">
 			        <% if (!lonErrorMessage.equals("")) { %><span class="glyphicon glyphicon-remove form-control-feedback"></span><% } %>
 			    </div>
 			</div>

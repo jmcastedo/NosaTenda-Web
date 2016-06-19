@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.397" errors="0" skipped="0" tests="38" name="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest">
+<testsuite failures="0" time="0.698" errors="0" skipped="0" tests="38" name="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -27,7 +27,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/jmcastedo/pfc/workspace_2014_Web/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6993770705881355346.tmp"/>
+    <property name="classworlds.conf" value="/Users/jmcastedo/pfc/workspace_2014_Web/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4710639260377394998.tmp"/>
     <property name="sun.jnu.encoding" value="MacRoman"/>
     <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -65,42 +65,42 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.042" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginEmpleado"/>
-  <testcase time="0.009" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoPassword"/>
-  <testcase time="0.009" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testDeleteEmpleado"/>
-  <testcase time="0.027" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosByTienda"/>
-  <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetClienteData"/>
-  <testcase time="0.008" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testActivateEmpleado"/>
-  <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosByRoleBadFormat"/>
-  <testcase time="0.01" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetRoles"/>
+  <testcase time="0.048" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginEmpleado"/>
+  <testcase time="0.018" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoPassword"/>
+  <testcase time="0.007" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testDeleteEmpleado"/>
+  <testcase time="0.035" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosByTienda"/>
+  <testcase time="0.012" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetClienteData"/>
+  <testcase time="0.053" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testActivateEmpleado"/>
+  <testcase time="0.031" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosByRoleBadFormat"/>
+  <testcase time="0.032" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetRoles"/>
   <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoPasswordUserNotFound"/>
   <testcase time="0.004" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoRoleBadFormat"/>
-  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginEmpleadoIncorrectPassword"/>
-  <testcase time="0.01" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testClienteLazy"/>
-  <testcase time="0.01" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEmpleadoLazy"/>
+  <testcase time="0.034" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginEmpleadoIncorrectPassword"/>
+  <testcase time="0.018" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testClienteLazy"/>
+  <testcase time="0.025" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEmpleadoLazy"/>
   <testcase time="0.007" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginClienteNotFound"/>
-  <testcase time="0.015" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleados"/>
-  <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginEmpleadoNotFound"/>
-  <testcase time="0.007" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testNewEmpleadoDuplicateCorreo"/>
-  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testNewClienteBis"/>
-  <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadoData"/>
+  <testcase time="0.027" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleados"/>
+  <testcase time="0.012" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginEmpleadoNotFound"/>
+  <testcase time="0.015" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testNewEmpleadoDuplicateCorreo"/>
+  <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testNewClienteBis"/>
+  <testcase time="0.012" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadoData"/>
   <testcase time="0.008" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testNewClienteDuplicateCorreo"/>
-  <testcase time="0.016" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosByTiendaEmpty"/>
-  <testcase time="0.007" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoCorreo"/>
-  <testcase time="0.004" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosEmpty"/>
-  <testcase time="0.009" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleado"/>
-  <testcase time="0.009" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoBadFormat"/>
-  <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testDeactivateEmpleadoId"/>
-  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testNewCliente"/>
+  <testcase time="0.021" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosByTiendaEmpty"/>
+  <testcase time="0.024" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoCorreo"/>
+  <testcase time="0.007" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosEmpty"/>
+  <testcase time="0.015" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleado"/>
+  <testcase time="0.012" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoBadFormat"/>
+  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testDeactivateEmpleadoId"/>
+  <testcase time="0.008" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testNewCliente"/>
   <testcase time="0.004" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoRole"/>
-  <testcase time="0.017" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosByRole"/>
-  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoPasswordIncorrectPassword"/>
-  <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginCliente"/>
-  <testcase time="0.004" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testDeleteEmpleadoId"/>
-  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginClienteIncorrectPassword"/>
+  <testcase time="0.031" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetEmpleadosByRole"/>
+  <testcase time="0.011" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoPasswordIncorrectPassword"/>
+  <testcase time="0.008" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginCliente"/>
+  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testDeleteEmpleadoId"/>
+  <testcase time="0.007" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testLoginClienteIncorrectPassword"/>
   <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testNewEmpleado"/>
   <testcase time="0.009" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testEditEmpleadoCorreoDuplicateCorreo"/>
-  <testcase time="0.012" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testDeleteEmpleadoBis"/>
+  <testcase time="0.013" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testDeleteEmpleadoBis"/>
   <testcase time="0.004" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testActivateEmpleadoId"/>
   <testcase time="0.008" classname="es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest" name="testGetRolesDaoHibernate"/>
 </testsuite>

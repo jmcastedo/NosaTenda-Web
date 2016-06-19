@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.296" errors="0" skipped="0" tests="17" name="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest">
+<testsuite failures="0" time="0.325" errors="0" skipped="0" tests="17" name="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -27,7 +27,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/jmcastedo/pfc/workspace_2014_Web/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6993770705881355346.tmp"/>
+    <property name="classworlds.conf" value="/Users/jmcastedo/pfc/workspace_2014_Web/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4710639260377394998.tmp"/>
     <property name="sun.jnu.encoding" value="MacRoman"/>
     <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -65,21 +65,21 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.035" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testIsFavTienda"/>
+  <testcase time="0.04" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testIsFavTienda"/>
   <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testIsFavTiendaInstanceNotFound"/>
-  <testcase time="0.023" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testFavTienda"/>
-  <testcase time="0.035" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="getTiendasEmptyList"/>
-  <testcase time="0.019" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetCategoriasByTienda"/>
-  <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testTiendaLazy"/>
-  <testcase time="0.013" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendas"/>
+  <testcase time="0.021" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testFavTienda"/>
+  <testcase time="0.028" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="getTiendasEmptyList"/>
+  <testcase time="0.015" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetCategoriasByTienda"/>
+  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testTiendaLazy"/>
+  <testcase time="0.02" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendas"/>
   <testcase time="0.021" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendasByEmpleado"/>
   <testcase time="0.003" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testMetodosEnvioByTiendaInstanceNotFound"/>
-  <testcase time="0.007" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testMetodosEnvioByTienda"/>
+  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testMetodosEnvioByTienda"/>
   <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetNonExistentTienda"/>
   <testcase time="0.004" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendaByIdBis"/>
-  <testcase time="0.024" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testUnfavTienda"/>
-  <testcase time="0.005" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendaById"/>
-  <testcase time="0.017" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendasFav"/>
-  <testcase time="0.014" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendasCercanas"/>
-  <testcase time="0.014" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendasFavDaoHibernate"/>
+  <testcase time="0.029" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testUnfavTienda"/>
+  <testcase time="0.006" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendaById"/>
+  <testcase time="0.025" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendasFav"/>
+  <testcase time="0.026" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendasCercanas"/>
+  <testcase time="0.015" classname="es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest" name="testGetTiendasFavDaoHibernate"/>
 </testsuite>

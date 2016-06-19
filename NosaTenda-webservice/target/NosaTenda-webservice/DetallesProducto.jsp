@@ -53,12 +53,18 @@
 			<div class="row"><h3>En venta</h3></div>
 			<% 	Calendar compare = Calendar.getInstance();
 			
-			if ( producto.getFecha_retirada() == null || ((compare.compareTo(producto.getFecha_retirada()) > 0 ) && (compare.compareTo(producto.getFecha_puesta_venta()) < 0)) ) { %>
+			if ( producto.getFecha_retirada() == null) { %>
 				<div class="row"><p class="lead">No</p></div>
 				<div class="row"><a href="<%= "PonerEnVenta?id=" + producto.getId() %>" class="btn btn-primary" role ="button">Poner en venta</a></div>
-			<% } else { %>
+				
+			<% } else if ((compare.compareTo(producto.getFecha_retirada()) < 0 ) && (compare.compareTo(producto.getFecha_puesta_venta()) > 0)) { %>
 				<div class="row"><p class="lead">Sí (hasta el <%= date_format.format((producto.getFecha_retirada()).getTime()) %>)</p></div>
 				<div class="row"><a href="<%= "PonerEnVenta?id=" + producto.getId() %>" class="btn btn-primary disabled" role ="button">Poner en venta</a></div>
+				
+			<% } else { %>
+				<div class="row"><p class="lead">No</p></div>
+				<div class="row"><a href="<%= "PonerEnVenta?id=" + producto.getId() %>" class="btn btn-primary" role ="button">Poner en venta</a></div>
+				
 			<% } %>
 			
 			

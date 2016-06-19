@@ -10,7 +10,7 @@
 			<New class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 				<Set name="driverClassName">org.postgresql.Driver</Set>
 				<Set name="url">jdbc:postgresql://localhost:5433/pojo</Set>
-				<Set name="username">pojo</Set>
+				<Set name="username">postgres</Set>
                 <Set name="password">pojo</Set>
 			</New>
 		</Arg>

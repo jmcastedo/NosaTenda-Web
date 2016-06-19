@@ -15,7 +15,7 @@
 	class="org.springframework.jdbc.datasource.SingleConnectionDataSource"
 	p:driverClassName="org.postgresql.Driver"
 	p:url="jdbc:postgresql://localhost:5433/pojotest"
-	p:username="pojo"
+	p:username="postgres"
 	p:password="pojo"
 	p:suppressClose="true"/>
 	

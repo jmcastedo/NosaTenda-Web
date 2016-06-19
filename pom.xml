@@ -35,7 +35,7 @@
 	<jdbcDriver.className>org.postgresql.Driver</jdbcDriver.className>
 	
 	<!-- Datasource properties -->
-	<dataSource.user>pojo</dataSource.user>
+	<dataSource.user>postgres</dataSource.user>
 	<dataSource.password>pojo</dataSource.password>
 	<dataSource.jndiName>jdbc/NosaTenda-ds</dataSource.jndiName>
 	<testDataSource.user>${dataSource.user}</testDataSource.user>

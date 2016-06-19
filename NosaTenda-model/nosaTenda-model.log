@@ -4649,3 +4649,951 @@
 8204 [main] INFO  20160121214714501 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - cleanDb: llamando a DbUtil  
 8204 [main] INFO  20160121214714501 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
 8226 [main] INFO  20160121214714523 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+0    [main] INFO  20160619122823611 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - populateDb: llamando a DbUtil  
+6260 [main] INFO  20160619122829871 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+6436 [main] DEBUG 20160619122830047 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 50, testTienda2Id: 51   
+6436 [main] DEBUG 20160619122830047 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 50, testProducto2Id: 51, testProducto3Id: 52   
+6629 [main] INFO  20160619122830240 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+7669 [main] DEBUG 20160619122831280 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernate  
+7952 [main] DEBUG 20160619122831563 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasDaoHibernate  
+8066 [main] DEBUG 20160619122831677 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetCompras  
+8099 [main] DEBUG 20160619122831710 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByProductoIdByRangoDaoHibernate  
+8135 [main] DEBUG 20160619122831746 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - fecha_inicio: Sat Jun 18 12:28:31 CEST 2016  
+8135 [main] DEBUG 20160619122831746 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - fecha_fin: Mon Jun 20 12:28:31 CEST 2016  
+8157 [main] DEBUG 20160619122831768 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasEmpty  
+8163 [main] DEBUG 20160619122831774 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByProductoIdDaoHibernate  
+8198 [main] DEBUG 20160619122831809 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByTiendaIdDesgloseDaoHibernate  
+8275 [main] DEBUG 20160619122831886 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGuardarCompraInstanceNotFound  
+8283 [main] DEBUG 20160619122831894 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasById  
+8289 [main] DEBUG 20160619122831900 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+8394 [main] DEBUG 20160619122832005 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasById  
+8424 [main] DEBUG 20160619122832035 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByTienda  
+8535 [main] DEBUG 20160619122832146 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdByTiendaIdDaoHibernate  
+8588 [main] DEBUG 20160619122832199 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdDaoHibernate  
+8667 [main] DEBUG 20160619122832278 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasByTiendaId  
+8715 [main] DEBUG 20160619122832326 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraNotVerifiedDaoHibernate  
+8767 [main] DEBUG 20160619122832378 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByIdNotFound  
+8790 [main] DEBUG 20160619122832401 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetCompras  
+8855 [main] DEBUG 20160619122832466 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByTiendaIdDaoHibernate  
+8890 [main] DEBUG 20160619122832501 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasByClienteId  
+8913 [main] DEBUG 20160619122832524 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGuardarCompra  
+8932 [main] DEBUG 20160619122832543 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByCliente  
+8960 [main] DEBUG 20160619122832571 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdDesgloseDaoHibernate  
+9004 [main] INFO  20160619122832615 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - cleanDb: llamando a DbUtil  
+9005 [main] INFO  20160619122832616 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+9069 [main] INFO  20160619122832680 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+9079 [main] INFO  20160619122832690 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - populateDb: llamando a DbUtil  
+9079 [main] INFO  20160619122832690 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+9093 [main] DEBUG 20160619122832704 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 52, testTienda2Id: 53   
+9093 [main] DEBUG 20160619122832704 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 53, testProducto2Id: 54, testProducto3Id: 55   
+9112 [main] INFO  20160619122832723 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+9223 [main] DEBUG 20160619122832834 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaEnVenta  
+9306 [main] DEBUG 20160619122832917 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidadEnVenta  
+9344 [main] DEBUG 20160619122832955 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidadProductoDaoHibernate  
+9396 [main] DEBUG 20160619122833007 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductoData  
+9418 [main] DEBUG 20160619122833029 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProducto  
+9440 [main] DEBUG 20160619122833051 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaDaoHibernate  
+9463 [main] DEBUG 20160619122833074 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetFechasVentasByProducto  
+9505 [main] DEBUG 20160619122833116 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByProducto  
+9550 [main] DEBUG 20160619122833161 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetCategorias  
+9566 [main] DEBUG 20160619122833177 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFavDaoHibernate  
+9622 [main] DEBUG 20160619122833233 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testHayStockInstanceNotFound  
+9634 [main] DEBUG 20160619122833245 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosCount  
+9635 [main] DEBUG 20160619122833246 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@79b40ab5  
+9664 [main] DEBUG 20160619122833275 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockUp  
+9672 [main] DEBUG 20160619122833283 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoByProducto  
+9702 [main] DEBUG 20160619122833313 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoByProducto Fecha: java.util.GregorianCalendar[time=1466245713285,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Madrid",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=165,lastRule=java.util.SimpleTimeZone[id=Europe/Madrid,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2016,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=3,DAY_OF_MONTH=18,DAY_OF_YEAR=170,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=0,HOUR_OF_DAY=12,MINUTE=28,SECOND=33,MILLISECOND=285,ZONE_OFFSET=3600000,DST_OFFSET=3600000]  
+9711 [main] DEBUG 20160619122833322 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProductoNotFoundProducto  
+9723 [main] DEBUG 20160619122833334 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testVoid  
+9735 [main] DEBUG 20160619122833346 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testProductoDaoHibernateSearch  
+9736 [main] DEBUG 20160619122833347 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+9736 [main] DEBUG 20160619122833347 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+9761 [main] DEBUG 20160619122833372 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+9761 [main] DEBUG 20160619122833372 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+9771 [main] DEBUG 20160619122833382 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+9771 [main] DEBUG 20160619122833382 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+9777 [main] DEBUG 20160619122833388 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+9777 [main] DEBUG 20160619122833388 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+9785 [main] DEBUG 20160619122833396 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoria  
+9876 [main] DEBUG 20160619122833487 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByTienda  
+9921 [main] DEBUG 20160619122833532 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockInstanceNotFound  
+9932 [main] DEBUG 20160619122833543 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVenta  
+9982 [main] DEBUG 20160619122833593 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVentaYAgostados  
+10019 [main] DEBUG 20160619122833630 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaTiendaEnVenta  
+10101 [main] DEBUG 20160619122833712 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testDeleteProductoInstanceNotFound  
+10114 [main] DEBUG 20160619122833725 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testPonerEnVenta  
+10141 [main] DEBUG 20160619122833752 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testNewProducto  
+10154 [main] DEBUG 20160619122833765 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaDesglose  
+10255 [main] DEBUG 20160619122833866 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockDown  
+10264 [main] DEBUG 20160619122833875 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testFindProductoById  
+10287 [main] DEBUG 20160619122833898 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductos  
+10308 [main] DEBUG 20160619122833919 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@79b40ab5  
+10328 [main] DEBUG 20160619122833939 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testDeleteProducto  
+10341 [main] DEBUG 20160619122833952 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@79b40ab5  
+10361 [main] DEBUG 20160619122833972 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoVentasByProducto  
+10426 [main] DEBUG 20160619122834037 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetLocalidades  
+10437 [main] DEBUG 20160619122834048 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByProductoByRango  
+10454 [main] DEBUG 20160619122834065 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - fecha_inicio = Sat Jun 18 12:28:34 CEST 2016  
+10454 [main] DEBUG 20160619122834065 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - fecha_fin = Mon Jun 20 12:28:34 CEST 2016  
+10491 [main] DEBUG 20160619122834102 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - unidadesVendidas = 6  
+10509 [main] DEBUG 20160619122834120 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaByTienda  
+10593 [main] DEBUG 20160619122834204 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaTienda  
+10630 [main] DEBUG 20160619122834241 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoria  
+10669 [main] DEBUG 20160619122834280 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaEnVenta  
+10700 [main] DEBUG 20160619122834311 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFavEnVenta  
+10748 [main] DEBUG 20160619122834359 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFav  
+10777 [main] DEBUG 20160619122834388 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByTiendaDesglose  
+10833 [main] DEBUG 20160619122834444 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaByTiendaDesglose  
+10949 [main] DEBUG 20160619122834560 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockInsufficientStock  
+10956 [main] DEBUG 20160619122834567 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testHayStock  
+10968 [main] DEBUG 20160619122834579 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTienda  
+10986 [main] DEBUG 20160619122834597 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testNewProductoInstanceNotFound  
+10991 [main] DEBUG 20160619122834602 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditPrecio  
+11005 [main] DEBUG 20160619122834616 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testFindProductoByIdNotFoundProducto  
+11018 [main] DEBUG 20160619122834629 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testSearchProductos  
+11019 [main] DEBUG 20160619122834630 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+11019 [main] DEBUG 20160619122834630 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+11035 [main] DEBUG 20160619122834646 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+11035 [main] DEBUG 20160619122834646 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+11038 [main] DEBUG 20160619122834649 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+11038 [main] DEBUG 20160619122834649 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+11040 [main] DEBUG 20160619122834651 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+11041 [main] DEBUG 20160619122834652 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+11046 [main] DEBUG 20160619122834657 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEmpyList  
+11055 [main] DEBUG 20160619122834666 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@79b40ab5  
+11067 [main] DEBUG 20160619122834678 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetLocalidadesLocalidadDaoHibernate  
+11073 [main] DEBUG 20160619122834684 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testCategoriaDaoHibernate  
+11097 [main] DEBUG 20160619122834708 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidas  
+11136 [main] DEBUG 20160619122834747 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidad  
+11164 [main] DEBUG 20160619122834775 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockBadRequest  
+11169 [main] DEBUG 20160619122834780 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVentaAgotados  
+11190 [main] DEBUG 20160619122834801 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testProductoLazy  
+11221 [main] DEBUG 20160619122834832 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProductoNotFoundTienda  
+11226 [main] INFO  20160619122834837 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - cleanDb: llamando a DbUtil  
+11226 [main] INFO  20160619122834837 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+11253 [main] INFO  20160619122834864 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+11258 [main] INFO  20160619122834869 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - populateDb: llamando a DbUtil  
+11258 [main] INFO  20160619122834869 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+11263 [main] DEBUG 20160619122834874 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 54, testTienda2Id: 55   
+11263 [main] DEBUG 20160619122834874 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 56, testProducto2Id: 57, testProducto3Id: 58   
+11273 [main] INFO  20160619122834884 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+11305 [main] DEBUG 20160619122834916 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasDaoHibernate  
+11366 [main] DEBUG 20160619122834977 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReserva  
+11374 [main] DEBUG 20160619122834985 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByProductoIdByRangoDaoHibernate  
+11374 [main] DEBUG 20160619122834985 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_reserva: Sun Jun 19 12:28:34 CEST 2016  
+11382 [main] DEBUG 20160619122834993 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_reserva: Thu Jun 16 12:28:34 CEST 2016  
+11387 [main] DEBUG 20160619122834998 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_inicio: Sun Jun 19 12:28:34 CEST 2016  
+11388 [main] DEBUG 20160619122834999 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_inicio: Sat Jun 18 12:28:34 CEST 2016  
+11388 [main] DEBUG 20160619122834999 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_fin: Mon Jun 20 12:28:34 CEST 2016  
+11388 [main] DEBUG 20160619122834999 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - reserva2: Thu Jun 16 12:28:34 CEST 2016  
+11395 [main] DEBUG 20160619122835006 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - ventasReserva: 1  
+11401 [main] DEBUG 20160619122835012 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByProductoIdDaoHibernate  
+11427 [main] DEBUG 20160619122835038 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testEntregarReserva  
+11437 [main] DEBUG 20160619122835048 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasEmpty  
+11442 [main] DEBUG 20160619122835053 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByTiendaIdDesgloseDaoHibernate  
+11476 [main] DEBUG 20160619122835087 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+11527 [main] DEBUG 20160619122835138 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReservaDaoHibernateFind  
+11563 [main] DEBUG 20160619122835174 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasByIdNotFound  
+11569 [main] DEBUG 20160619122835180 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDaoHibernate  
+11615 [main] DEBUG 20160619122835226 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdDaoHibernate  
+11651 [main] DEBUG 20160619122835262 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasById  
+11676 [main] DEBUG 20160619122835287 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testEntregarReserva  
+11684 [main] DEBUG 20160619122835295 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReservaNotFound  
+11695 [main] DEBUG 20160619122835306 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservas  
+11716 [main] DEBUG 20160619122835327 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProductoNoProducto  
+11721 [main] DEBUG 20160619122835332 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReservaNotFound  
+11729 [main] DEBUG 20160619122835340 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByTiendaIdDaoHibernate  
+11753 [main] DEBUG 20160619122835364 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasByIdEmpty  
+11761 [main] DEBUG 20160619122835372 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProductoNoCliente  
+11766 [main] DEBUG 20160619122835377 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProducto  
+11773 [main] DEBUG 20160619122835384 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdDesgloseDaoHibernate  
+11810 [main] DEBUG 20160619122835421 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+11817 [main] INFO  20160619122835428 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - cleanDb: llamando a DbUtil  
+11817 [main] INFO  20160619122835428 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+11857 [main] INFO  20160619122835468 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+11860 [main] INFO  20160619122835471 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - populateDb: llamando a DbUtil  
+11861 [main] INFO  20160619122835472 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+11866 [main] DEBUG 20160619122835477 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 56, testTienda2Id: 57   
+11866 [main] DEBUG 20160619122835477 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 59, testProducto2Id: 60, testProducto3Id: 61   
+11879 [main] INFO  20160619122835490 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+11912 [main] DEBUG 20160619122835523 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testIsFavTienda  
+11919 [main] DEBUG 20160619122835530 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testIsFavTienda  
+11928 [main] DEBUG 20160619122835539 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testFavTienda  
+11963 [main] DEBUG 20160619122835574 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendas  
+11994 [main] DEBUG 20160619122835605 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetCategoriasByTienda  
+12010 [main] DEBUG 20160619122835621 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testTiendaLazy  
+12016 [main] DEBUG 20160619122835627 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendas  
+12031 [main] DEBUG 20160619122835642 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasByEmpleado  
+12093 [main] DEBUG 20160619122835704 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testMetodosEnvioByTienda  
+12098 [main] DEBUG 20160619122835709 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testMetodosEnvioByTienda  
+12105 [main] DEBUG 20160619122835716 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetNonExistentTienda  
+12110 [main] DEBUG 20160619122835721 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendaByIdBis  
+12114 [main] DEBUG 20160619122835725 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testUnfavTienda  
+12138 [main] DEBUG 20160619122835749 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testTiendaById  
+12143 [main] DEBUG 20160619122835754 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasFav  
+12156 [main] DEBUG 20160619122835767 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasCercanas  
+12158 [main] DEBUG 20160619122835769 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - dist = 1002.5454594793415  
+12168 [main] DEBUG 20160619122835779 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasFavDaoHibernate  
+12177 [main] DEBUG 20160619122835788 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - tiendas favoritas: 2  
+12177 [main] DEBUG 20160619122835788 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - Tienda 0: tienda1 56  
+12178 [main] DEBUG 20160619122835789 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - Tienda 1: tienda2 57  
+12178 [main] INFO  20160619122835789 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - cleanDb: llamando a DbUtil  
+12179 [main] INFO  20160619122835790 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+12210 [main] INFO  20160619122835821 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+12214 [main] INFO  20160619122835825 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - populateDb: llamando a DbUtil  
+12215 [main] INFO  20160619122835826 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+12218 [main] DEBUG 20160619122835829 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 58, testTienda2Id: 59   
+12218 [main] DEBUG 20160619122835829 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 62, testProducto2Id: 63, testProducto3Id: 64   
+12228 [main] INFO  20160619122835839 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+12266 [main] DEBUG 20160619122835877 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleado  
+12273 [main] DEBUG 20160619122835884 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPassword  
+12282 [main] DEBUG 20160619122835893 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleado  
+12293 [main] DEBUG 20160619122835904 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByTienda  
+12323 [main] DEBUG 20160619122835934 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetClienteData  
+12329 [main] DEBUG 20160619122835940 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testActivateEmpleado  
+12338 [main] DEBUG 20160619122835949 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByRoleBadFormat  
+12345 [main] DEBUG 20160619122835956 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetRoles  
+12389 [main] DEBUG 20160619122836000 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPasswordUserNotFound  
+12398 [main] DEBUG 20160619122836009 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoRoleBadFormat  
+12403 [main] DEBUG 20160619122836014 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleadoIncorrectPassword  
+12410 [main] DEBUG 20160619122836021 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testClienteLazy  
+12418 [main] DEBUG 20160619122836029 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEmpleadoLazy  
+12427 [main] DEBUG 20160619122836038 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginClienteNotFound  
+12434 [main] DEBUG 20160619122836045 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleados  
+12447 [main] DEBUG 20160619122836058 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleadoNotFound  
+12455 [main] DEBUG 20160619122836066 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewEmpleadoDuplicateCorreo  
+12466 [main] DEBUG 20160619122836077 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewCliente  
+12473 [main] DEBUG 20160619122836084 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadoData  
+12479 [main] DEBUG 20160619122836090 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewClienteDuplicateCorreo  
+12487 [main] DEBUG 20160619122836098 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByTiendaEmpty  
+12508 [main] DEBUG 20160619122836119 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoCorreo  
+12517 [main] DEBUG 20160619122836128 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosEmpty  
+12521 [main] DEBUG 20160619122836132 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleado  
+12530 [main] DEBUG 20160619122836141 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleado  
+12537 [main] DEBUG 20160619122836148 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeactivateEmpleadoId  
+12541 [main] DEBUG 20160619122836152 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewCliente  
+12546 [main] DEBUG 20160619122836157 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoRole  
+12549 [main] DEBUG 20160619122836160 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByRole  
+12571 [main] DEBUG 20160619122836182 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPassword  
+12578 [main] DEBUG 20160619122836189 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginCliente  
+12584 [main] DEBUG 20160619122836195 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleadoId  
+12589 [main] DEBUG 20160619122836200 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginClienteIncorrectPassword  
+12595 [main] DEBUG 20160619122836206 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewEmpleado  
+12601 [main] DEBUG 20160619122836212 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoCorreoDuplicateCorreo  
+12610 [main] DEBUG 20160619122836221 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleado  
+12616 [main] DEBUG 20160619122836227 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testActivateEmpleadoId  
+12620 [main] DEBUG 20160619122836231 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetRolesDaoHibernate  
+12626 [main] INFO  20160619122836237 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - cleanDb: llamando a DbUtil  
+12626 [main] INFO  20160619122836237 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+12648 [main] INFO  20160619122836259 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+0    [main] INFO  20160619221450641 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - populateDb: llamando a DbUtil  
+3004 [main] INFO  20160619221453645 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+3269 [main] DEBUG 20160619221453910 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 150, testTienda2Id: 151   
+3269 [main] DEBUG 20160619221453910 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 150, testProducto2Id: 151, testProducto3Id: 152   
+3376 [main] INFO  20160619221454017 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+4431 [main] DEBUG 20160619221455072 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernate  
+4611 [main] DEBUG 20160619221455252 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasDaoHibernate  
+4857 [main] DEBUG 20160619221455498 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetCompras  
+4895 [main] DEBUG 20160619221455536 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByProductoIdByRangoDaoHibernate  
+4944 [main] DEBUG 20160619221455585 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - fecha_inicio: Sat Jun 18 22:14:55 CEST 2016  
+4944 [main] DEBUG 20160619221455585 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - fecha_fin: Mon Jun 20 22:14:55 CEST 2016  
+4968 [main] DEBUG 20160619221455609 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasEmpty  
+4975 [main] DEBUG 20160619221455616 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByProductoIdDaoHibernate  
+5010 [main] DEBUG 20160619221455651 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByTiendaIdDesgloseDaoHibernate  
+5069 [main] DEBUG 20160619221455710 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGuardarCompraInstanceNotFound  
+5078 [main] DEBUG 20160619221455719 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasById  
+5085 [main] DEBUG 20160619221455726 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+5191 [main] DEBUG 20160619221455832 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasById  
+5253 [main] DEBUG 20160619221455894 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByTienda  
+5324 [main] DEBUG 20160619221455965 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdByTiendaIdDaoHibernate  
+5383 [main] DEBUG 20160619221456024 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdDaoHibernate  
+5455 [main] DEBUG 20160619221456096 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasByTiendaId  
+5503 [main] DEBUG 20160619221456144 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraNotVerifiedDaoHibernate  
+5516 [main] DEBUG 20160619221456157 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByIdNotFound  
+5529 [main] DEBUG 20160619221456170 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetCompras  
+5575 [main] DEBUG 20160619221456216 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByTiendaIdDaoHibernate  
+5629 [main] DEBUG 20160619221456270 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasByClienteId  
+5653 [main] DEBUG 20160619221456294 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGuardarCompra  
+5665 [main] DEBUG 20160619221456306 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByCliente  
+5695 [main] DEBUG 20160619221456336 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdDesgloseDaoHibernate  
+5756 [main] INFO  20160619221456397 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - cleanDb: llamando a DbUtil  
+5756 [main] INFO  20160619221456397 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+5857 [main] INFO  20160619221456498 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+5868 [main] INFO  20160619221456509 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - populateDb: llamando a DbUtil  
+5869 [main] INFO  20160619221456510 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+5918 [main] DEBUG 20160619221456559 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 152, testTienda2Id: 153   
+5918 [main] DEBUG 20160619221456559 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 153, testProducto2Id: 154, testProducto3Id: 155   
+5945 [main] INFO  20160619221456586 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+6061 [main] DEBUG 20160619221456702 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaEnVenta  
+6164 [main] DEBUG 20160619221456805 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidadEnVenta  
+6208 [main] DEBUG 20160619221456849 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidadProductoDaoHibernate  
+6266 [main] DEBUG 20160619221456907 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductoData  
+6280 [main] DEBUG 20160619221456921 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProducto  
+6297 [main] DEBUG 20160619221456938 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaDaoHibernate  
+6313 [main] DEBUG 20160619221456954 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetFechasVentasByProducto  
+6346 [main] DEBUG 20160619221456987 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByProducto  
+6388 [main] DEBUG 20160619221457029 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetCategorias  
+6401 [main] DEBUG 20160619221457042 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFavDaoHibernate  
+6437 [main] DEBUG 20160619221457078 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testHayStockInstanceNotFound  
+6452 [main] DEBUG 20160619221457093 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosCount  
+6453 [main] DEBUG 20160619221457094 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@7382ab3e  
+6480 [main] DEBUG 20160619221457121 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockUp  
+6489 [main] DEBUG 20160619221457130 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoByProducto  
+6527 [main] DEBUG 20160619221457168 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoByProducto Fecha: java.util.GregorianCalendar[time=1466280897132,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Madrid",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=165,lastRule=java.util.SimpleTimeZone[id=Europe/Madrid,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2016,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=3,DAY_OF_MONTH=18,DAY_OF_YEAR=170,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=10,HOUR_OF_DAY=22,MINUTE=14,SECOND=57,MILLISECOND=132,ZONE_OFFSET=3600000,DST_OFFSET=3600000]  
+6534 [main] DEBUG 20160619221457175 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProductoNotFoundProducto  
+6547 [main] DEBUG 20160619221457188 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testVoid  
+6558 [main] DEBUG 20160619221457199 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testProductoDaoHibernateSearch  
+6558 [main] DEBUG 20160619221457199 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6559 [main] DEBUG 20160619221457200 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6586 [main] DEBUG 20160619221457227 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6587 [main] DEBUG 20160619221457228 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6597 [main] DEBUG 20160619221457238 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6598 [main] DEBUG 20160619221457239 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6603 [main] DEBUG 20160619221457244 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6603 [main] DEBUG 20160619221457244 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6610 [main] DEBUG 20160619221457251 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoria  
+6692 [main] DEBUG 20160619221457333 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByTienda  
+6749 [main] DEBUG 20160619221457390 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockInstanceNotFound  
+6760 [main] DEBUG 20160619221457401 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVenta  
+6871 [main] DEBUG 20160619221457512 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVentaYAgostados  
+6912 [main] DEBUG 20160619221457553 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaTiendaEnVenta  
+6988 [main] DEBUG 20160619221457629 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testDeleteProductoInstanceNotFound  
+6996 [main] DEBUG 20160619221457637 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testPonerEnVenta  
+7025 [main] DEBUG 20160619221457666 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testNewProducto  
+7036 [main] DEBUG 20160619221457677 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaDesglose  
+7106 [main] DEBUG 20160619221457747 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockDown  
+7115 [main] DEBUG 20160619221457756 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testFindProductoById  
+7128 [main] DEBUG 20160619221457769 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductos  
+7144 [main] DEBUG 20160619221457785 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@7382ab3e  
+7161 [main] DEBUG 20160619221457802 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testDeleteProducto  
+7172 [main] DEBUG 20160619221457813 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@7382ab3e  
+7187 [main] DEBUG 20160619221457828 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoVentasByProducto  
+7243 [main] DEBUG 20160619221457884 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetLocalidades  
+7253 [main] DEBUG 20160619221457894 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByProductoByRango  
+7266 [main] DEBUG 20160619221457907 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - fecha_inicio = Sat Jun 18 22:14:57 CEST 2016  
+7266 [main] DEBUG 20160619221457907 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - fecha_fin = Mon Jun 20 22:14:57 CEST 2016  
+7281 [main] DEBUG 20160619221457922 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - unidadesVendidas = 6  
+7291 [main] DEBUG 20160619221457932 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaByTienda  
+7372 [main] DEBUG 20160619221458013 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaTienda  
+7417 [main] DEBUG 20160619221458058 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoria  
+7456 [main] DEBUG 20160619221458097 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaEnVenta  
+7476 [main] DEBUG 20160619221458117 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFavEnVenta  
+7529 [main] DEBUG 20160619221458170 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFav  
+7559 [main] DEBUG 20160619221458200 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByTiendaDesglose  
+7608 [main] DEBUG 20160619221458249 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaByTiendaDesglose  
+7753 [main] DEBUG 20160619221458394 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockInsufficientStock  
+7759 [main] DEBUG 20160619221458400 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testHayStock  
+7775 [main] DEBUG 20160619221458416 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTienda  
+7795 [main] DEBUG 20160619221458436 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testNewProductoInstanceNotFound  
+7801 [main] DEBUG 20160619221458442 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditPrecio  
+7812 [main] DEBUG 20160619221458453 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testFindProductoByIdNotFoundProducto  
+7841 [main] DEBUG 20160619221458482 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testSearchProductos  
+7842 [main] DEBUG 20160619221458483 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+7842 [main] DEBUG 20160619221458483 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+7862 [main] DEBUG 20160619221458503 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+7863 [main] DEBUG 20160619221458504 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+7865 [main] DEBUG 20160619221458506 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+7865 [main] DEBUG 20160619221458506 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+7867 [main] DEBUG 20160619221458508 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+7867 [main] DEBUG 20160619221458508 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+7872 [main] DEBUG 20160619221458513 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEmpyList  
+7883 [main] DEBUG 20160619221458524 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@7382ab3e  
+7900 [main] DEBUG 20160619221458541 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetLocalidadesLocalidadDaoHibernate  
+7907 [main] DEBUG 20160619221458548 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testCategoriaDaoHibernate  
+7929 [main] DEBUG 20160619221458570 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidas  
+7965 [main] DEBUG 20160619221458606 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidad  
+7990 [main] DEBUG 20160619221458631 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockBadRequest  
+7996 [main] DEBUG 20160619221458637 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVentaAgotados  
+8022 [main] DEBUG 20160619221458663 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testProductoLazy  
+8030 [main] DEBUG 20160619221458671 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProductoNotFoundTienda  
+8038 [main] INFO  20160619221458679 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - cleanDb: llamando a DbUtil  
+8038 [main] INFO  20160619221458679 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+8080 [main] INFO  20160619221458721 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+8083 [main] INFO  20160619221458724 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - populateDb: llamando a DbUtil  
+8084 [main] INFO  20160619221458725 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+8090 [main] DEBUG 20160619221458731 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 154, testTienda2Id: 155   
+8090 [main] DEBUG 20160619221458731 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 156, testProducto2Id: 157, testProducto3Id: 158   
+8100 [main] INFO  20160619221458741 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+8130 [main] DEBUG 20160619221458771 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasDaoHibernate  
+8190 [main] DEBUG 20160619221458831 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReserva  
+8202 [main] DEBUG 20160619221458843 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByProductoIdByRangoDaoHibernate  
+8202 [main] DEBUG 20160619221458843 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_reserva: Sun Jun 19 22:14:58 CEST 2016  
+8217 [main] DEBUG 20160619221458858 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_reserva: Thu Jun 16 22:14:58 CEST 2016  
+8218 [main] DEBUG 20160619221458859 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_inicio: Sun Jun 19 22:14:58 CEST 2016  
+8219 [main] DEBUG 20160619221458860 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_inicio: Sat Jun 18 22:14:58 CEST 2016  
+8219 [main] DEBUG 20160619221458860 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_fin: Mon Jun 20 22:14:58 CEST 2016  
+8219 [main] DEBUG 20160619221458860 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - reserva2: Thu Jun 16 22:14:58 CEST 2016  
+8228 [main] DEBUG 20160619221458869 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - ventasReserva: 1  
+8234 [main] DEBUG 20160619221458875 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByProductoIdDaoHibernate  
+8262 [main] DEBUG 20160619221458903 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testEntregarReserva  
+8271 [main] DEBUG 20160619221458912 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasEmpty  
+8276 [main] DEBUG 20160619221458917 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByTiendaIdDesgloseDaoHibernate  
+8310 [main] DEBUG 20160619221458951 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+8359 [main] DEBUG 20160619221459000 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReservaDaoHibernateFind  
+8379 [main] DEBUG 20160619221459020 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasByIdNotFound  
+8387 [main] DEBUG 20160619221459028 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDaoHibernate  
+8447 [main] DEBUG 20160619221459088 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdDaoHibernate  
+8485 [main] DEBUG 20160619221459126 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasById  
+8506 [main] DEBUG 20160619221459147 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testEntregarReserva  
+8513 [main] DEBUG 20160619221459154 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReservaNotFound  
+8519 [main] DEBUG 20160619221459160 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservas  
+8537 [main] DEBUG 20160619221459178 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProductoNoProducto  
+8542 [main] DEBUG 20160619221459183 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReservaNotFound  
+8550 [main] DEBUG 20160619221459191 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByTiendaIdDaoHibernate  
+8573 [main] DEBUG 20160619221459214 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasByIdEmpty  
+8581 [main] DEBUG 20160619221459222 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProductoNoCliente  
+8588 [main] DEBUG 20160619221459229 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProducto  
+8597 [main] DEBUG 20160619221459238 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdDesgloseDaoHibernate  
+8643 [main] DEBUG 20160619221459284 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+8649 [main] INFO  20160619221459290 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - cleanDb: llamando a DbUtil  
+8649 [main] INFO  20160619221459290 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+8685 [main] INFO  20160619221459326 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+8688 [main] INFO  20160619221459329 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - populateDb: llamando a DbUtil  
+8688 [main] INFO  20160619221459329 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+8695 [main] DEBUG 20160619221459336 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 156, testTienda2Id: 157   
+8695 [main] DEBUG 20160619221459336 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 159, testProducto2Id: 160, testProducto3Id: 161   
+8709 [main] INFO  20160619221459350 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+8747 [main] DEBUG 20160619221459388 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testIsFavTienda  
+8756 [main] DEBUG 20160619221459397 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testIsFavTienda  
+8763 [main] DEBUG 20160619221459404 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testFavTienda  
+8791 [main] DEBUG 20160619221459432 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendas  
+8855 [main] DEBUG 20160619221459496 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetCategoriasByTienda  
+8877 [main] DEBUG 20160619221459518 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testTiendaLazy  
+8885 [main] DEBUG 20160619221459526 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendas  
+8904 [main] DEBUG 20160619221459545 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasByEmpleado  
+8964 [main] DEBUG 20160619221459605 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testMetodosEnvioByTienda  
+8969 [main] DEBUG 20160619221459610 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testMetodosEnvioByTienda  
+8980 [main] DEBUG 20160619221459621 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetNonExistentTienda  
+8987 [main] DEBUG 20160619221459628 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendaByIdBis  
+8992 [main] DEBUG 20160619221459633 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testUnfavTienda  
+9029 [main] DEBUG 20160619221459670 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testTiendaById  
+9036 [main] DEBUG 20160619221459677 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasFav  
+9059 [main] DEBUG 20160619221459700 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasCercanas  
+9062 [main] DEBUG 20160619221459703 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - dist = 1002.5454594793415  
+9074 [main] DEBUG 20160619221459715 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasFavDaoHibernate  
+9083 [main] DEBUG 20160619221459724 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - tiendas favoritas: 2  
+9083 [main] DEBUG 20160619221459724 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - Tienda 0: tienda1 156  
+9083 [main] DEBUG 20160619221459724 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - Tienda 1: tienda2 157  
+9084 [main] INFO  20160619221459725 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - cleanDb: llamando a DbUtil  
+9084 [main] INFO  20160619221459725 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+9108 [main] INFO  20160619221459749 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+9113 [main] INFO  20160619221459754 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - populateDb: llamando a DbUtil  
+9113 [main] INFO  20160619221459754 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+9116 [main] DEBUG 20160619221459757 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 158, testTienda2Id: 159   
+9116 [main] DEBUG 20160619221459757 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 162, testProducto2Id: 163, testProducto3Id: 164   
+9126 [main] INFO  20160619221459767 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+9167 [main] DEBUG 20160619221459808 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleado  
+9173 [main] DEBUG 20160619221459814 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPassword  
+9180 [main] DEBUG 20160619221459821 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleado  
+9192 [main] DEBUG 20160619221459833 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByTienda  
+9211 [main] DEBUG 20160619221459852 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetClienteData  
+9216 [main] DEBUG 20160619221459857 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testActivateEmpleado  
+9227 [main] DEBUG 20160619221459868 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByRoleBadFormat  
+9235 [main] DEBUG 20160619221459876 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetRoles  
+9266 [main] DEBUG 20160619221459907 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPasswordUserNotFound  
+9272 [main] DEBUG 20160619221459913 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoRoleBadFormat  
+9276 [main] DEBUG 20160619221459917 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleadoIncorrectPassword  
+9282 [main] DEBUG 20160619221459923 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testClienteLazy  
+9291 [main] DEBUG 20160619221459932 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEmpleadoLazy  
+9299 [main] DEBUG 20160619221459940 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginClienteNotFound  
+9305 [main] DEBUG 20160619221459946 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleados  
+9318 [main] DEBUG 20160619221459959 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleadoNotFound  
+9325 [main] DEBUG 20160619221459966 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewEmpleadoDuplicateCorreo  
+9334 [main] DEBUG 20160619221459975 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewCliente  
+9341 [main] DEBUG 20160619221459982 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadoData  
+9346 [main] DEBUG 20160619221459987 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewClienteDuplicateCorreo  
+9354 [main] DEBUG 20160619221459995 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByTiendaEmpty  
+9372 [main] DEBUG 20160619221500013 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoCorreo  
+9381 [main] DEBUG 20160619221500022 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosEmpty  
+9384 [main] DEBUG 20160619221500025 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleado  
+9391 [main] DEBUG 20160619221500032 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleado  
+9399 [main] DEBUG 20160619221500040 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeactivateEmpleadoId  
+9403 [main] DEBUG 20160619221500044 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewCliente  
+9408 [main] DEBUG 20160619221500049 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoRole  
+9412 [main] DEBUG 20160619221500053 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByRole  
+9429 [main] DEBUG 20160619221500070 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPassword  
+9436 [main] DEBUG 20160619221500077 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginCliente  
+9444 [main] DEBUG 20160619221500085 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleadoId  
+9450 [main] DEBUG 20160619221500091 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginClienteIncorrectPassword  
+9458 [main] DEBUG 20160619221500099 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewEmpleado  
+9464 [main] DEBUG 20160619221500105 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoCorreoDuplicateCorreo  
+9475 [main] DEBUG 20160619221500116 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleado  
+9482 [main] DEBUG 20160619221500123 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testActivateEmpleadoId  
+9486 [main] DEBUG 20160619221500127 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetRolesDaoHibernate  
+9492 [main] INFO  20160619221500133 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - cleanDb: llamando a DbUtil  
+9493 [main] INFO  20160619221500134 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+9517 [main] INFO  20160619221500158 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+0    [main] INFO  20160619223306062 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - populateDb: llamando a DbUtil  
+2597 [main] INFO  20160619223308659 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+2668 [main] DEBUG 20160619223308730 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 250, testTienda2Id: 251   
+2668 [main] DEBUG 20160619223308730 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 250, testProducto2Id: 251, testProducto3Id: 252   
+2722 [main] INFO  20160619223308784 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+3722 [main] DEBUG 20160619223309784 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernate  
+3896 [main] DEBUG 20160619223309958 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasDaoHibernate  
+4013 [main] DEBUG 20160619223310075 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetCompras  
+4051 [main] DEBUG 20160619223310113 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByProductoIdByRangoDaoHibernate  
+4071 [main] DEBUG 20160619223310133 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - fecha_inicio: Sat Jun 18 22:33:10 CEST 2016  
+4071 [main] DEBUG 20160619223310133 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - fecha_fin: Mon Jun 20 22:33:10 CEST 2016  
+4096 [main] DEBUG 20160619223310158 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasEmpty  
+4102 [main] DEBUG 20160619223310164 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByProductoIdDaoHibernate  
+4138 [main] DEBUG 20160619223310200 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByTiendaIdDesgloseDaoHibernate  
+4197 [main] DEBUG 20160619223310259 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGuardarCompraInstanceNotFound  
+4205 [main] DEBUG 20160619223310267 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasById  
+4210 [main] DEBUG 20160619223310272 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+4313 [main] DEBUG 20160619223310375 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasById  
+4358 [main] DEBUG 20160619223310420 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByTienda  
+4447 [main] DEBUG 20160619223310509 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdByTiendaIdDaoHibernate  
+4524 [main] DEBUG 20160619223310586 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdDaoHibernate  
+4598 [main] DEBUG 20160619223310660 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasByTiendaId  
+4645 [main] DEBUG 20160619223310707 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraNotVerifiedDaoHibernate  
+4663 [main] DEBUG 20160619223310725 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByIdNotFound  
+4681 [main] DEBUG 20160619223310743 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetCompras  
+4729 [main] DEBUG 20160619223310791 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByTiendaIdDaoHibernate  
+4763 [main] DEBUG 20160619223310825 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasByClienteId  
+4784 [main] DEBUG 20160619223310846 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGuardarCompra  
+4801 [main] DEBUG 20160619223310863 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByCliente  
+4835 [main] DEBUG 20160619223310897 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdDesgloseDaoHibernate  
+4878 [main] INFO  20160619223310940 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - cleanDb: llamando a DbUtil  
+4878 [main] INFO  20160619223310940 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+4921 [main] INFO  20160619223310983 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+4933 [main] INFO  20160619223310995 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - populateDb: llamando a DbUtil  
+4933 [main] INFO  20160619223310995 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+4946 [main] DEBUG 20160619223311008 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 252, testTienda2Id: 253   
+4947 [main] DEBUG 20160619223311009 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 253, testProducto2Id: 254, testProducto3Id: 255   
+4966 [main] INFO  20160619223311028 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+5197 [main] DEBUG 20160619223311259 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaEnVenta  
+5265 [main] DEBUG 20160619223311327 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidadEnVenta  
+5317 [main] DEBUG 20160619223311379 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidadProductoDaoHibernate  
+5361 [main] DEBUG 20160619223311423 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductoData  
+5403 [main] DEBUG 20160619223311465 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProducto  
+5421 [main] DEBUG 20160619223311483 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaDaoHibernate  
+5441 [main] DEBUG 20160619223311503 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetFechasVentasByProducto  
+5470 [main] DEBUG 20160619223311532 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByProducto  
+5503 [main] DEBUG 20160619223311565 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetCategorias  
+5515 [main] DEBUG 20160619223311577 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFavDaoHibernate  
+5564 [main] DEBUG 20160619223311626 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testHayStockInstanceNotFound  
+5574 [main] DEBUG 20160619223311636 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosCount  
+5575 [main] DEBUG 20160619223311637 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@5edd7658  
+5599 [main] DEBUG 20160619223311661 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockUp  
+5607 [main] DEBUG 20160619223311669 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoByProducto  
+5633 [main] DEBUG 20160619223311695 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoByProducto Fecha: java.util.GregorianCalendar[time=1466281991671,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Madrid",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=165,lastRule=java.util.SimpleTimeZone[id=Europe/Madrid,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2016,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=3,DAY_OF_MONTH=18,DAY_OF_YEAR=170,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=10,HOUR_OF_DAY=22,MINUTE=33,SECOND=11,MILLISECOND=671,ZONE_OFFSET=3600000,DST_OFFSET=3600000]  
+5640 [main] DEBUG 20160619223311702 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProductoNotFoundProducto  
+5653 [main] DEBUG 20160619223311715 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testVoid  
+5664 [main] DEBUG 20160619223311726 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testProductoDaoHibernateSearch  
+5665 [main] DEBUG 20160619223311727 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+5665 [main] DEBUG 20160619223311727 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+5675 [main] DEBUG 20160619223311737 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+5676 [main] DEBUG 20160619223311738 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+5681 [main] DEBUG 20160619223311743 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+5681 [main] DEBUG 20160619223311743 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+5690 [main] DEBUG 20160619223311752 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+5690 [main] DEBUG 20160619223311752 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+5697 [main] DEBUG 20160619223311759 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoria  
+5779 [main] DEBUG 20160619223311841 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByTienda  
+5833 [main] DEBUG 20160619223311895 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockInstanceNotFound  
+5840 [main] DEBUG 20160619223311902 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVenta  
+5872 [main] DEBUG 20160619223311934 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVentaYAgostados  
+5911 [main] DEBUG 20160619223311973 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaTiendaEnVenta  
+5968 [main] DEBUG 20160619223312030 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testDeleteProductoInstanceNotFound  
+5975 [main] DEBUG 20160619223312037 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testPonerEnVenta  
+5998 [main] DEBUG 20160619223312060 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testNewProducto  
+6009 [main] DEBUG 20160619223312071 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaDesglose  
+6078 [main] DEBUG 20160619223312140 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockDown  
+6084 [main] DEBUG 20160619223312146 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testFindProductoById  
+6093 [main] DEBUG 20160619223312155 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductos  
+6108 [main] DEBUG 20160619223312170 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@5edd7658  
+6128 [main] DEBUG 20160619223312190 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testDeleteProducto  
+6140 [main] DEBUG 20160619223312202 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@5edd7658  
+6155 [main] DEBUG 20160619223312217 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoVentasByProducto  
+6213 [main] DEBUG 20160619223312275 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetLocalidades  
+6222 [main] DEBUG 20160619223312284 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByProductoByRango  
+6235 [main] DEBUG 20160619223312297 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - fecha_inicio = Sat Jun 18 22:33:12 CEST 2016  
+6235 [main] DEBUG 20160619223312297 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - fecha_fin = Mon Jun 20 22:33:12 CEST 2016  
+6249 [main] DEBUG 20160619223312311 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - unidadesVendidas = 6  
+6259 [main] DEBUG 20160619223312321 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaByTienda  
+6348 [main] DEBUG 20160619223312410 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaTienda  
+6396 [main] DEBUG 20160619223312458 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoria  
+6434 [main] DEBUG 20160619223312496 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaEnVenta  
+6457 [main] DEBUG 20160619223312519 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFavEnVenta  
+6509 [main] DEBUG 20160619223312571 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFav  
+6540 [main] DEBUG 20160619223312602 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByTiendaDesglose  
+6597 [main] DEBUG 20160619223312659 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaByTiendaDesglose  
+6695 [main] DEBUG 20160619223312757 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockInsufficientStock  
+6702 [main] DEBUG 20160619223312764 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testHayStock  
+6711 [main] DEBUG 20160619223312773 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTienda  
+6738 [main] DEBUG 20160619223312800 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testNewProductoInstanceNotFound  
+6744 [main] DEBUG 20160619223312806 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditPrecio  
+6755 [main] DEBUG 20160619223312817 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testFindProductoByIdNotFoundProducto  
+6766 [main] DEBUG 20160619223312828 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testSearchProductos  
+6767 [main] DEBUG 20160619223312829 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6767 [main] DEBUG 20160619223312829 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6780 [main] DEBUG 20160619223312842 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6780 [main] DEBUG 20160619223312842 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6782 [main] DEBUG 20160619223312844 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6782 [main] DEBUG 20160619223312844 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6785 [main] DEBUG 20160619223312847 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6785 [main] DEBUG 20160619223312847 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6793 [main] DEBUG 20160619223312855 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEmpyList  
+6804 [main] DEBUG 20160619223312866 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@5edd7658  
+6820 [main] DEBUG 20160619223312882 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetLocalidadesLocalidadDaoHibernate  
+6826 [main] DEBUG 20160619223312888 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testCategoriaDaoHibernate  
+6853 [main] DEBUG 20160619223312915 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidas  
+6886 [main] DEBUG 20160619223312948 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidad  
+6918 [main] DEBUG 20160619223312980 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockBadRequest  
+6926 [main] DEBUG 20160619223312988 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVentaAgotados  
+6947 [main] DEBUG 20160619223313009 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testProductoLazy  
+6954 [main] DEBUG 20160619223313016 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProductoNotFoundTienda  
+6958 [main] INFO  20160619223313020 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - cleanDb: llamando a DbUtil  
+6959 [main] INFO  20160619223313021 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+6993 [main] INFO  20160619223313055 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+6996 [main] INFO  20160619223313058 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - populateDb: llamando a DbUtil  
+6996 [main] INFO  20160619223313058 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+7001 [main] DEBUG 20160619223313063 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 254, testTienda2Id: 255   
+7001 [main] DEBUG 20160619223313063 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 256, testProducto2Id: 257, testProducto3Id: 258   
+7011 [main] INFO  20160619223313073 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+7041 [main] DEBUG 20160619223313103 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasDaoHibernate  
+7094 [main] DEBUG 20160619223313156 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReserva  
+7109 [main] DEBUG 20160619223313171 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByProductoIdByRangoDaoHibernate  
+7110 [main] DEBUG 20160619223313172 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_reserva: Sun Jun 19 22:33:13 CEST 2016  
+7118 [main] DEBUG 20160619223313180 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_reserva: Thu Jun 16 22:33:13 CEST 2016  
+7119 [main] DEBUG 20160619223313181 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_inicio: Sun Jun 19 22:33:13 CEST 2016  
+7119 [main] DEBUG 20160619223313181 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_inicio: Sat Jun 18 22:33:13 CEST 2016  
+7119 [main] DEBUG 20160619223313181 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_fin: Mon Jun 20 22:33:13 CEST 2016  
+7119 [main] DEBUG 20160619223313181 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - reserva2: Thu Jun 16 22:33:13 CEST 2016  
+7132 [main] DEBUG 20160619223313194 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - ventasReserva: 1  
+7138 [main] DEBUG 20160619223313200 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByProductoIdDaoHibernate  
+7164 [main] DEBUG 20160619223313226 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testEntregarReserva  
+7174 [main] DEBUG 20160619223313236 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasEmpty  
+7181 [main] DEBUG 20160619223313243 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByTiendaIdDesgloseDaoHibernate  
+7225 [main] DEBUG 20160619223313287 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+7304 [main] DEBUG 20160619223313366 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReservaDaoHibernateFind  
+7322 [main] DEBUG 20160619223313384 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasByIdNotFound  
+7328 [main] DEBUG 20160619223313390 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDaoHibernate  
+7375 [main] DEBUG 20160619223313437 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdDaoHibernate  
+7434 [main] DEBUG 20160619223313496 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasById  
+7461 [main] DEBUG 20160619223313523 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testEntregarReserva  
+7471 [main] DEBUG 20160619223313533 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReservaNotFound  
+7481 [main] DEBUG 20160619223313543 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservas  
+7501 [main] DEBUG 20160619223313563 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProductoNoProducto  
+7508 [main] DEBUG 20160619223313570 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReservaNotFound  
+7518 [main] DEBUG 20160619223313580 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByTiendaIdDaoHibernate  
+7543 [main] DEBUG 20160619223313605 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasByIdEmpty  
+7551 [main] DEBUG 20160619223313613 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProductoNoCliente  
+7556 [main] DEBUG 20160619223313618 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProducto  
+7563 [main] DEBUG 20160619223313625 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdDesgloseDaoHibernate  
+7606 [main] DEBUG 20160619223313668 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+7610 [main] INFO  20160619223313672 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - cleanDb: llamando a DbUtil  
+7611 [main] INFO  20160619223313673 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+7635 [main] INFO  20160619223313697 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+7638 [main] INFO  20160619223313700 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - populateDb: llamando a DbUtil  
+7638 [main] INFO  20160619223313700 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+7643 [main] DEBUG 20160619223313705 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 256, testTienda2Id: 257   
+7643 [main] DEBUG 20160619223313705 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 259, testProducto2Id: 260, testProducto3Id: 261   
+7653 [main] INFO  20160619223313715 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+7681 [main] DEBUG 20160619223313743 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testIsFavTienda  
+7688 [main] DEBUG 20160619223313750 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testIsFavTienda  
+7695 [main] DEBUG 20160619223313757 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testFavTienda  
+7720 [main] DEBUG 20160619223313782 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendas  
+7758 [main] DEBUG 20160619223313820 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetCategoriasByTienda  
+7777 [main] DEBUG 20160619223313839 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testTiendaLazy  
+7783 [main] DEBUG 20160619223313845 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendas  
+7800 [main] DEBUG 20160619223313862 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasByEmpleado  
+7819 [main] DEBUG 20160619223313881 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testMetodosEnvioByTienda  
+7823 [main] DEBUG 20160619223313885 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testMetodosEnvioByTienda  
+7832 [main] DEBUG 20160619223313894 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetNonExistentTienda  
+7837 [main] DEBUG 20160619223313899 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendaByIdBis  
+7841 [main] DEBUG 20160619223313903 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testUnfavTienda  
+7870 [main] DEBUG 20160619223313932 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testTiendaById  
+7877 [main] DEBUG 20160619223313939 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasFav  
+7893 [main] DEBUG 20160619223313955 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasCercanas  
+7896 [main] DEBUG 20160619223313958 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - dist = 1002.5454594793415  
+7906 [main] DEBUG 20160619223313968 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasFavDaoHibernate  
+7915 [main] DEBUG 20160619223313977 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - tiendas favoritas: 2  
+7915 [main] DEBUG 20160619223313977 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - Tienda 0: tienda1 256  
+7915 [main] DEBUG 20160619223313977 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - Tienda 1: tienda2 257  
+7916 [main] INFO  20160619223313978 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - cleanDb: llamando a DbUtil  
+7916 [main] INFO  20160619223313978 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+7941 [main] INFO  20160619223314003 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+7945 [main] INFO  20160619223314007 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - populateDb: llamando a DbUtil  
+7945 [main] INFO  20160619223314007 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+7948 [main] DEBUG 20160619223314010 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 258, testTienda2Id: 259   
+7948 [main] DEBUG 20160619223314010 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 262, testProducto2Id: 263, testProducto3Id: 264   
+7958 [main] INFO  20160619223314020 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+7997 [main] DEBUG 20160619223314059 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleado  
+8004 [main] DEBUG 20160619223314066 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPassword  
+8011 [main] DEBUG 20160619223314073 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleado  
+8021 [main] DEBUG 20160619223314083 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByTienda  
+8045 [main] DEBUG 20160619223314107 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetClienteData  
+8050 [main] DEBUG 20160619223314112 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testActivateEmpleado  
+8059 [main] DEBUG 20160619223314121 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByRoleBadFormat  
+8064 [main] DEBUG 20160619223314126 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetRoles  
+8076 [main] DEBUG 20160619223314138 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPasswordUserNotFound  
+8086 [main] DEBUG 20160619223314148 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoRoleBadFormat  
+8094 [main] DEBUG 20160619223314156 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleadoIncorrectPassword  
+8102 [main] DEBUG 20160619223314164 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testClienteLazy  
+8110 [main] DEBUG 20160619223314172 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEmpleadoLazy  
+8120 [main] DEBUG 20160619223314182 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginClienteNotFound  
+8128 [main] DEBUG 20160619223314190 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleados  
+8146 [main] DEBUG 20160619223314208 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleadoNotFound  
+8154 [main] DEBUG 20160619223314216 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewEmpleadoDuplicateCorreo  
+8163 [main] DEBUG 20160619223314225 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewCliente  
+8171 [main] DEBUG 20160619223314233 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadoData  
+8177 [main] DEBUG 20160619223314239 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewClienteDuplicateCorreo  
+8185 [main] DEBUG 20160619223314247 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByTiendaEmpty  
+8203 [main] DEBUG 20160619223314265 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoCorreo  
+8211 [main] DEBUG 20160619223314273 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosEmpty  
+8216 [main] DEBUG 20160619223314278 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleado  
+8224 [main] DEBUG 20160619223314286 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleado  
+8231 [main] DEBUG 20160619223314293 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeactivateEmpleadoId  
+8235 [main] DEBUG 20160619223314297 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewCliente  
+8240 [main] DEBUG 20160619223314302 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoRole  
+8244 [main] DEBUG 20160619223314306 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByRole  
+8264 [main] DEBUG 20160619223314326 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPassword  
+8270 [main] DEBUG 20160619223314332 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginCliente  
+8277 [main] DEBUG 20160619223314339 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleadoId  
+8281 [main] DEBUG 20160619223314343 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginClienteIncorrectPassword  
+8288 [main] DEBUG 20160619223314350 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewEmpleado  
+8293 [main] DEBUG 20160619223314355 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoCorreoDuplicateCorreo  
+8299 [main] DEBUG 20160619223314361 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleado  
+8311 [main] DEBUG 20160619223314373 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testActivateEmpleadoId  
+8316 [main] DEBUG 20160619223314378 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetRolesDaoHibernate  
+8323 [main] INFO  20160619223314385 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - cleanDb: llamando a DbUtil  
+8323 [main] INFO  20160619223314385 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+8346 [main] INFO  20160619223314408 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+0    [main] INFO  20160619224059195 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - populateDb: llamando a DbUtil  
+2651 [main] INFO  20160619224101846 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+2720 [main] DEBUG 20160619224101915 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 350, testTienda2Id: 351   
+2721 [main] DEBUG 20160619224101916 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 350, testProducto2Id: 351, testProducto3Id: 352   
+2773 [main] INFO  20160619224101968 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+3846 [main] DEBUG 20160619224103041 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernate  
+3995 [main] DEBUG 20160619224103190 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasDaoHibernate  
+4079 [main] DEBUG 20160619224103274 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetCompras  
+4116 [main] DEBUG 20160619224103311 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByProductoIdByRangoDaoHibernate  
+4146 [main] DEBUG 20160619224103341 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - fecha_inicio: Sat Jun 18 22:41:03 CEST 2016  
+4146 [main] DEBUG 20160619224103341 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - fecha_fin: Mon Jun 20 22:41:03 CEST 2016  
+4169 [main] DEBUG 20160619224103364 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasEmpty  
+4176 [main] DEBUG 20160619224103371 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByProductoIdDaoHibernate  
+4210 [main] DEBUG 20160619224103405 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByTiendaIdDesgloseDaoHibernate  
+4283 [main] DEBUG 20160619224103478 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGuardarCompraInstanceNotFound  
+4291 [main] DEBUG 20160619224103486 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasById  
+4461 [main] DEBUG 20160619224103656 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+4555 [main] DEBUG 20160619224103750 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasById  
+4595 [main] DEBUG 20160619224103790 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByTienda  
+4647 [main] DEBUG 20160619224103842 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdByTiendaIdDaoHibernate  
+4702 [main] DEBUG 20160619224103897 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdDaoHibernate  
+4758 [main] DEBUG 20160619224103953 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasByTiendaId  
+4807 [main] DEBUG 20160619224104002 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraNotVerifiedDaoHibernate  
+4818 [main] DEBUG 20160619224104013 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByIdNotFound  
+4831 [main] DEBUG 20160619224104026 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetCompras  
+4863 [main] DEBUG 20160619224104058 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByTiendaIdDaoHibernate  
+4896 [main] DEBUG 20160619224104091 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testCompraDaoHibernateGetComprasByClienteId  
+4920 [main] DEBUG 20160619224104115 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGuardarCompra  
+4934 [main] DEBUG 20160619224104129 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetComprasByCliente  
+4968 [main] DEBUG 20160619224104163 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - testGetVentasByCategoriaIdDesgloseDaoHibernate  
+5021 [main] INFO  20160619224104216 es.udc.jcastedo.NosaTenda.test.model.compraService.CompraServiceTest  - cleanDb: llamando a DbUtil  
+5021 [main] INFO  20160619224104216 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+5059 [main] INFO  20160619224104254 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+5068 [main] INFO  20160619224104263 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - populateDb: llamando a DbUtil  
+5068 [main] INFO  20160619224104263 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+5077 [main] DEBUG 20160619224104272 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 352, testTienda2Id: 353   
+5077 [main] DEBUG 20160619224104272 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 353, testProducto2Id: 354, testProducto3Id: 355   
+5104 [main] INFO  20160619224104299 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+5217 [main] DEBUG 20160619224104412 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaEnVenta  
+5295 [main] DEBUG 20160619224104490 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidadEnVenta  
+5341 [main] DEBUG 20160619224104536 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidadProductoDaoHibernate  
+5385 [main] DEBUG 20160619224104580 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductoData  
+5398 [main] DEBUG 20160619224104593 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProducto  
+5413 [main] DEBUG 20160619224104608 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaDaoHibernate  
+5433 [main] DEBUG 20160619224104628 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetFechasVentasByProducto  
+5465 [main] DEBUG 20160619224104660 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByProducto  
+5506 [main] DEBUG 20160619224104701 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetCategorias  
+5529 [main] DEBUG 20160619224104724 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFavDaoHibernate  
+5564 [main] DEBUG 20160619224104759 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testHayStockInstanceNotFound  
+5574 [main] DEBUG 20160619224104769 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosCount  
+5574 [main] DEBUG 20160619224104769 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@425138a4  
+5598 [main] DEBUG 20160619224104793 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockUp  
+5610 [main] DEBUG 20160619224104805 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoByProducto  
+5641 [main] DEBUG 20160619224104836 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoByProducto Fecha: java.util.GregorianCalendar[time=1466282464808,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Madrid",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=165,lastRule=java.util.SimpleTimeZone[id=Europe/Madrid,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2016,MONTH=5,WEEK_OF_YEAR=24,WEEK_OF_MONTH=3,DAY_OF_MONTH=18,DAY_OF_YEAR=170,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=10,HOUR_OF_DAY=22,MINUTE=41,SECOND=4,MILLISECOND=808,ZONE_OFFSET=3600000,DST_OFFSET=3600000]  
+5647 [main] DEBUG 20160619224104842 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProductoNotFoundProducto  
+5657 [main] DEBUG 20160619224104852 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testVoid  
+5666 [main] DEBUG 20160619224104861 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testProductoDaoHibernateSearch  
+5667 [main] DEBUG 20160619224104862 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+5667 [main] DEBUG 20160619224104862 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+5675 [main] DEBUG 20160619224104870 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+5675 [main] DEBUG 20160619224104870 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+5688 [main] DEBUG 20160619224104883 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+5688 [main] DEBUG 20160619224104883 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+5693 [main] DEBUG 20160619224104888 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+5694 [main] DEBUG 20160619224104889 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+5704 [main] DEBUG 20160619224104899 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoria  
+5784 [main] DEBUG 20160619224104979 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByTienda  
+5837 [main] DEBUG 20160619224105032 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockInstanceNotFound  
+5844 [main] DEBUG 20160619224105039 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVenta  
+5880 [main] DEBUG 20160619224105075 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVentaYAgostados  
+5920 [main] DEBUG 20160619224105115 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaTiendaEnVenta  
+5974 [main] DEBUG 20160619224105169 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testDeleteProductoInstanceNotFound  
+5981 [main] DEBUG 20160619224105176 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testPonerEnVenta  
+6004 [main] DEBUG 20160619224105199 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testNewProducto  
+6015 [main] DEBUG 20160619224105210 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaDesglose  
+6084 [main] DEBUG 20160619224105279 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockDown  
+6091 [main] DEBUG 20160619224105286 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testFindProductoById  
+6102 [main] DEBUG 20160619224105297 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductos  
+6123 [main] DEBUG 20160619224105318 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@425138a4  
+6141 [main] DEBUG 20160619224105336 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testDeleteProducto  
+6152 [main] DEBUG 20160619224105347 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@425138a4  
+6167 [main] DEBUG 20160619224105362 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetHistoricoVentasByProducto  
+6232 [main] DEBUG 20160619224105427 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetLocalidades  
+6243 [main] DEBUG 20160619224105438 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByProductoByRango  
+6258 [main] DEBUG 20160619224105453 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - fecha_inicio = Sat Jun 18 22:41:05 CEST 2016  
+6258 [main] DEBUG 20160619224105453 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - fecha_fin = Mon Jun 20 22:41:05 CEST 2016  
+6278 [main] DEBUG 20160619224105473 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - unidadesVendidas = 6  
+6295 [main] DEBUG 20160619224105490 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaByTienda  
+6375 [main] DEBUG 20160619224105570 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoriaTienda  
+6420 [main] DEBUG 20160619224105615 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByCategoria  
+6458 [main] DEBUG 20160619224105653 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaEnVenta  
+6478 [main] DEBUG 20160619224105673 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFavEnVenta  
+6527 [main] DEBUG 20160619224105722 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTiendaFav  
+6558 [main] DEBUG 20160619224105753 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByTiendaDesglose  
+6615 [main] DEBUG 20160619224105810 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidasByCategoriaByTiendaDesglose  
+6722 [main] DEBUG 20160619224105917 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockInsufficientStock  
+6728 [main] DEBUG 20160619224105923 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testHayStock  
+6740 [main] DEBUG 20160619224105935 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByTienda  
+6757 [main] DEBUG 20160619224105952 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testNewProductoInstanceNotFound  
+6762 [main] DEBUG 20160619224105957 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditPrecio  
+6774 [main] DEBUG 20160619224105969 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testFindProductoByIdNotFoundProducto  
+6784 [main] DEBUG 20160619224105979 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testSearchProductos  
+6785 [main] DEBUG 20160619224105980 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6785 [main] DEBUG 20160619224105980 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6803 [main] DEBUG 20160619224105998 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6803 [main] DEBUG 20160619224105998 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6806 [main] DEBUG 20160619224106001 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6806 [main] DEBUG 20160619224106001 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6809 [main] DEBUG 20160619224106004 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - entrando searchProductos  
+6809 [main] DEBUG 20160619224106004 es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate  - antes del return  
+6815 [main] DEBUG 20160619224106010 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEmpyList  
+6825 [main] DEBUG 20160619224106020 es.udc.jcastedo.NosaTenda.model.productoService.impl.ProductoServiceImpl  - productoDao: es.udc.jcastedo.NosaTenda.model.producto.ProductoDaoHibernate@425138a4  
+6839 [main] DEBUG 20160619224106034 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetLocalidadesLocalidadDaoHibernate  
+6845 [main] DEBUG 20160619224106040 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testCategoriaDaoHibernate  
+6868 [main] DEBUG 20160619224106063 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetUnidadesVendidas  
+6901 [main] DEBUG 20160619224106096 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosByLocalidad  
+6930 [main] DEBUG 20160619224106125 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testActualizarStockBadRequest  
+6935 [main] DEBUG 20160619224106130 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testGetProductosEnVentaAgotados  
+6957 [main] DEBUG 20160619224106152 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testProductoLazy  
+6964 [main] DEBUG 20160619224106159 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - testEditProductoNotFoundTienda  
+6969 [main] INFO  20160619224106164 es.udc.jcastedo.NosaTenda.test.model.productoService.ProductoServiceTest  - cleanDb: llamando a DbUtil  
+6969 [main] INFO  20160619224106164 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+6997 [main] INFO  20160619224106192 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+7002 [main] INFO  20160619224106197 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - populateDb: llamando a DbUtil  
+7002 [main] INFO  20160619224106197 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+7007 [main] DEBUG 20160619224106202 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 354, testTienda2Id: 355   
+7007 [main] DEBUG 20160619224106202 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 356, testProducto2Id: 357, testProducto3Id: 358   
+7020 [main] INFO  20160619224106215 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+7062 [main] DEBUG 20160619224106257 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasDaoHibernate  
+7098 [main] DEBUG 20160619224106293 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReserva  
+7107 [main] DEBUG 20160619224106302 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByProductoIdByRangoDaoHibernate  
+7108 [main] DEBUG 20160619224106303 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_reserva: Sun Jun 19 22:41:06 CEST 2016  
+7125 [main] DEBUG 20160619224106320 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_reserva: Thu Jun 16 22:41:06 CEST 2016  
+7126 [main] DEBUG 20160619224106321 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_inicio: Sun Jun 19 22:41:06 CEST 2016  
+7126 [main] DEBUG 20160619224106321 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_inicio: Sat Jun 18 22:41:06 CEST 2016  
+7126 [main] DEBUG 20160619224106321 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - fecha_fin: Mon Jun 20 22:41:06 CEST 2016  
+7126 [main] DEBUG 20160619224106321 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - reserva2: Thu Jun 16 22:41:06 CEST 2016  
+7137 [main] DEBUG 20160619224106332 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - ventasReserva: 1  
+7144 [main] DEBUG 20160619224106339 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByProductoIdDaoHibernate  
+7168 [main] DEBUG 20160619224106363 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testEntregarReserva  
+7176 [main] DEBUG 20160619224106371 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasEmpty  
+7182 [main] DEBUG 20160619224106377 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByTiendaIdDesgloseDaoHibernate  
+7219 [main] DEBUG 20160619224106414 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+7291 [main] DEBUG 20160619224106486 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReservaDaoHibernateFind  
+7308 [main] DEBUG 20160619224106503 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasByIdNotFound  
+7314 [main] DEBUG 20160619224106509 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDaoHibernate  
+7362 [main] DEBUG 20160619224106557 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdDaoHibernate  
+7399 [main] DEBUG 20160619224106594 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasById  
+7422 [main] DEBUG 20160619224106617 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testEntregarReserva  
+7430 [main] DEBUG 20160619224106625 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReservaNotFound  
+7440 [main] DEBUG 20160619224106635 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservas  
+7466 [main] DEBUG 20160619224106661 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProductoNoProducto  
+7471 [main] DEBUG 20160619224106666 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testCancelarReservaNotFound  
+7479 [main] DEBUG 20160619224106674 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByTiendaIdDaoHibernate  
+7503 [main] DEBUG 20160619224106698 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetReservasByIdEmpty  
+7511 [main] DEBUG 20160619224106706 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProductoNoCliente  
+7516 [main] DEBUG 20160619224106711 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testReserveProducto  
+7522 [main] DEBUG 20160619224106717 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdDesgloseDaoHibernate  
+7573 [main] DEBUG 20160619224106768 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - testGetVentasByCategoriaIdByTiendaIdDesgloseDaoHibernate  
+7577 [main] INFO  20160619224106772 es.udc.jcastedo.NosaTenda.test.model.reservaService.ReservaServiceTest  - cleanDb: llamando a DbUtil  
+7578 [main] INFO  20160619224106773 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+7602 [main] INFO  20160619224106797 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+7606 [main] INFO  20160619224106801 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - populateDb: llamando a DbUtil  
+7607 [main] INFO  20160619224106802 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+7611 [main] DEBUG 20160619224106806 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 356, testTienda2Id: 357   
+7611 [main] DEBUG 20160619224106806 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 359, testProducto2Id: 360, testProducto3Id: 361   
+7620 [main] INFO  20160619224106815 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+7654 [main] DEBUG 20160619224106849 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testIsFavTienda  
+7663 [main] DEBUG 20160619224106858 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testIsFavTienda  
+7669 [main] DEBUG 20160619224106864 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testFavTienda  
+7690 [main] DEBUG 20160619224106885 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendas  
+7718 [main] DEBUG 20160619224106913 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetCategoriasByTienda  
+7734 [main] DEBUG 20160619224106929 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testTiendaLazy  
+7741 [main] DEBUG 20160619224106936 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendas  
+7760 [main] DEBUG 20160619224106955 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasByEmpleado  
+7781 [main] DEBUG 20160619224106976 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testMetodosEnvioByTienda  
+7785 [main] DEBUG 20160619224106980 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testMetodosEnvioByTienda  
+7792 [main] DEBUG 20160619224106987 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetNonExistentTienda  
+7797 [main] DEBUG 20160619224106992 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendaByIdBis  
+7800 [main] DEBUG 20160619224106995 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testUnfavTienda  
+7827 [main] DEBUG 20160619224107022 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testTiendaById  
+7836 [main] DEBUG 20160619224107031 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasFav  
+7860 [main] DEBUG 20160619224107055 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasCercanas  
+7864 [main] DEBUG 20160619224107059 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - dist = 1002.5454594793415  
+7887 [main] DEBUG 20160619224107082 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - testGetTiendasFavDaoHibernate  
+7899 [main] DEBUG 20160619224107094 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - tiendas favoritas: 2  
+7899 [main] DEBUG 20160619224107094 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - Tienda 0: tienda1 356  
+7899 [main] DEBUG 20160619224107094 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - Tienda 1: tienda2 357  
+7900 [main] INFO  20160619224107095 es.udc.jcastedo.NosaTenda.test.model.tiendaService.TiendaServiceTest  - cleanDb: llamando a DbUtil  
+7900 [main] INFO  20160619224107095 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+7932 [main] INFO  20160619224107127 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
+7938 [main] INFO  20160619224107133 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - populateDb: llamando a DbUtil  
+7938 [main] INFO  20160619224107133 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - entrando en el try de populateDb()  
+7944 [main] DEBUG 20160619224107139 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testTienda1Id: 358, testTienda2Id: 359   
+7945 [main] DEBUG 20160619224107140 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - testProducto1Id: 362, testProducto2Id: 363, testProducto3Id: 364   
+7959 [main] INFO  20160619224107154 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo populateDb()  
+8002 [main] DEBUG 20160619224107197 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleado  
+8009 [main] DEBUG 20160619224107204 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPassword  
+8021 [main] DEBUG 20160619224107216 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleado  
+8040 [main] DEBUG 20160619224107235 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByTienda  
+8067 [main] DEBUG 20160619224107262 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetClienteData  
+8079 [main] DEBUG 20160619224107274 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testActivateEmpleado  
+8126 [main] DEBUG 20160619224107321 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByRoleBadFormat  
+8166 [main] DEBUG 20160619224107361 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetRoles  
+8194 [main] DEBUG 20160619224107389 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPasswordUserNotFound  
+8204 [main] DEBUG 20160619224107399 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoRoleBadFormat  
+8209 [main] DEBUG 20160619224107404 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleadoIncorrectPassword  
+8244 [main] DEBUG 20160619224107439 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testClienteLazy  
+8269 [main] DEBUG 20160619224107464 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEmpleadoLazy  
+8290 [main] DEBUG 20160619224107485 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginClienteNotFound  
+8299 [main] DEBUG 20160619224107494 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleados  
+8330 [main] DEBUG 20160619224107525 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginEmpleadoNotFound  
+8339 [main] DEBUG 20160619224107534 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewEmpleadoDuplicateCorreo  
+8348 [main] DEBUG 20160619224107543 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewCliente  
+8359 [main] DEBUG 20160619224107554 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadoData  
+8368 [main] DEBUG 20160619224107563 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewClienteDuplicateCorreo  
+8379 [main] DEBUG 20160619224107574 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByTiendaEmpty  
+8400 [main] DEBUG 20160619224107595 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoCorreo  
+8416 [main] DEBUG 20160619224107611 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosEmpty  
+8433 [main] DEBUG 20160619224107628 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleado  
+8448 [main] DEBUG 20160619224107643 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleado  
+8459 [main] DEBUG 20160619224107654 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeactivateEmpleadoId  
+8465 [main] DEBUG 20160619224107660 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewCliente  
+8474 [main] DEBUG 20160619224107669 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoRole  
+8478 [main] DEBUG 20160619224107673 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetEmpleadosByRole  
+8506 [main] DEBUG 20160619224107701 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoPassword  
+8518 [main] DEBUG 20160619224107713 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginCliente  
+8530 [main] DEBUG 20160619224107725 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleadoId  
+8536 [main] DEBUG 20160619224107731 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testLoginClienteIncorrectPassword  
+8544 [main] DEBUG 20160619224107739 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testNewEmpleado  
+8550 [main] DEBUG 20160619224107745 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testEditEmpleadoCorreoDuplicateCorreo  
+8563 [main] DEBUG 20160619224107758 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testDeleteEmpleado  
+8571 [main] DEBUG 20160619224107766 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testActivateEmpleadoId  
+8576 [main] DEBUG 20160619224107771 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - testGetRolesDaoHibernate  
+8582 [main] INFO  20160619224107777 es.udc.jcastedo.NosaTenda.test.model.userService.UserServiceTest  - cleanDb: llamando a DbUtil  
+8583 [main] INFO  20160619224107778 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - Entrada en el try de cleanDb  
+8632 [main] INFO  20160619224107827 es.udc.jcastedo.NosaTenda.test.model.util.DbUtil  - saliendo cleanDb()  
